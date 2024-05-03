@@ -122,6 +122,7 @@
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Firebase/Plugins/Firebase.App.dll"
 -r:"Assets/Firebase/Plugins/Firebase.Auth.dll"
+-r:"Assets/Firebase/Plugins/Firebase.Database.dll"
 -r:"Assets/Firebase/Plugins/Firebase.Platform.dll"
 -r:"Assets/Firebase/Plugins/Firebase.TaskExtension.dll"
 -r:"Assets/Firebase/Plugins/Google.MiniJson.dll"
@@ -359,7 +360,7 @@
 -analyzer:"E:/Unity Project/2022.3.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AuthManager.cs"
 "Assets/Scripts/Ball.cs"
-"Assets/Scripts/CameraController.cs"
+"Assets/Scripts/FirebaseManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameSetup.cs"
 "Assets/Scripts/InputFieldNavi.cs"
