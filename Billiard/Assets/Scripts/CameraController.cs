@@ -18,6 +18,12 @@ public class CameraController : MonoBehaviour
     Transform cueBall;
     GameManager gameManager;
     [SerializeField] TextMeshProUGUI powerText;
+
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +46,7 @@ public class CameraController : MonoBehaviour
     {
         if (cueBall != null && !isTakingShot)
         {
-            horizontalInput = Input.GetAxis("Mouse X") + rotationSpeed + Time.deltaTime; 
+            horizontalInput = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime; 
 
             transform.RotateAround(cueBall.position, Vector3.up, horizontalInput);
         }
