@@ -19,6 +19,13 @@ public class CameraController : MonoBehaviour
     GameManager gameManager;
     [SerializeField] TextMeshProUGUI powerText;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
     void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
@@ -40,7 +47,7 @@ public class CameraController : MonoBehaviour
     {
         if (cueBall != null && !isTakingShot)
         {
-            horizontalInput = Input.GetAxis("Mouse X") + rotationSpeed + Time.deltaTime; 
+            horizontalInput = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime; 
 
             transform.RotateAround(cueBall.position, Vector3.up, horizontalInput);
         }
