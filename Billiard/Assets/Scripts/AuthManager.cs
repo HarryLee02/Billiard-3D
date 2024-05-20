@@ -35,7 +35,6 @@ public class AuthManager : MonoBehaviour
     [Header("UserData")]
     public TMP_Dropdown genderField;
     public TMP_InputField countryField;
-    public static string userID;
     void Awake()
     {
         //Check that all of the necessary dependencies for Firebase are present on the system
@@ -123,7 +122,8 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = "Logged In";
-            
+            StaticToken.token = User.UserId;
+            Debug.Log(StaticToken.token);
             SceneManager.LoadScene(2);
         }
     }
@@ -235,7 +235,6 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = "Logged In";
-            userID = User.UserId;
             SceneManager.LoadScene(2);
         }
     }

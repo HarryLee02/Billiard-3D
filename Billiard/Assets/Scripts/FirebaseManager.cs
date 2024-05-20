@@ -23,8 +23,13 @@ public class FirebaseManager : MonoBehaviour
     public TMP_InputField usernameField2;
     public TMP_InputField genderField;
     public TMP_InputField countryField;
+    public TMP_InputField rankField;
     
-    string id = AuthManager.userID;
+    public string id= StaticToken.token;
+
+    void Start() {
+        StartCoroutine(LoadUserData());
+    }
     void Awake()
     {
         //Check that all of the necessary dependencies for Firebase are present on the system
@@ -35,7 +40,6 @@ public class FirebaseManager : MonoBehaviour
             {
                 //If they are avalible Initialize Firebase
                 InitializeFirebase();
-                StartCoroutine(LoadUserData());
             }
             else
             {
@@ -59,9 +63,11 @@ public class FirebaseManager : MonoBehaviour
 
         StartCoroutine(UpdateGenderDatabase(genderField.text));
         StartCoroutine(UpdateCountryDatabase(countryField.text));
+        StartCoroutine(LoadUserData());
     }
     private IEnumerator LoadUserData()
     {
+        rankField.text = "Rank: ?";
         //Get the currently logged in user data
         Task<DataSnapshot> DBTask = DBreference.Child("player").Child(id).GetValueAsync();
 
@@ -74,6 +80,7 @@ public class FirebaseManager : MonoBehaviour
         else if (DBTask.Result.Value == null)
         {
             //No data exists yet
+            Debug.Log("No data exists");
             usernameField1.text = "None";
             usernameField2.text = "None";
             genderField.text = "None";
@@ -82,6 +89,7 @@ public class FirebaseManager : MonoBehaviour
         else
         {
             //Data has been retrieved
+            Debug.Log("Data has been retrieved");
             DataSnapshot snapshot = DBTask.Result;
             usernameField1.text = snapshot.Child("name").Value.ToString();
             usernameField2.text = snapshot.Child("name").Value.ToString();
@@ -141,5 +149,9 @@ public class FirebaseManager : MonoBehaviour
     {
         auth.SignOut();
         SceneManager.LoadScene(1);
+    }
+
+    public void CheckToken() {
+        Debug.Log(id);
     }
 }
