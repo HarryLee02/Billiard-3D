@@ -148,7 +148,7 @@ public class FirebaseManager : MonoBehaviour
     public void SignOutButton()
     {
         auth.SignOut();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void CheckToken() {
