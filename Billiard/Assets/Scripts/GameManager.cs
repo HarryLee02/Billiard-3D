@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -106,7 +105,7 @@ public class GameManager : MonoBehaviour
 
     public void RestartTheGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 
     bool Scratch()
@@ -219,6 +218,7 @@ public class GameManager : MonoBehaviour
         messageText.gameObject.SetActive(true);
         messageText.text = message;
         restartButton.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void Win (string player)
@@ -227,6 +227,7 @@ public class GameManager : MonoBehaviour
         messageText.gameObject.SetActive(true);
         messageText.text = player + " has won!";
         restartButton.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void NextPlayerTurn()
