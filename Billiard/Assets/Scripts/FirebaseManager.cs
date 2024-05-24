@@ -25,7 +25,7 @@ public class FirebaseManager : MonoBehaviour
     public TMP_InputField countryField;
     public TMP_InputField rankField;
     
-    public string id= StaticToken.token;
+    private string id = StaticToken.token;
 
     void Start() {
         StartCoroutine(LoadUserData());
@@ -67,6 +67,7 @@ public class FirebaseManager : MonoBehaviour
     }
     private IEnumerator LoadUserData()
     {
+        Debug.Log(id);
         rankField.text = "Rank: ?";
         //Get the currently logged in user data
         Task<DataSnapshot> DBTask = DBreference.Child("player").Child(id).GetValueAsync();
@@ -149,9 +150,5 @@ public class FirebaseManager : MonoBehaviour
     {
         auth.SignOut();
         SceneManager.LoadScene(0);
-    }
-
-    public void CheckToken() {
-        Debug.Log(id);
     }
 }

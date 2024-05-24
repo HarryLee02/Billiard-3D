@@ -123,6 +123,7 @@ public class AuthManager : MonoBehaviour
             warningLoginText.text = "";
             confirmLoginText.text = "Logged In";
             StaticToken.token = User.UserId;
+            Debug.Log(StaticToken.token);
             SceneManager.LoadScene(1);
         }
     }
@@ -234,6 +235,8 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = "Logged In";
+            StaticToken.token = "k0LMjuboQLTT3noBb66QAGr1Euk2";
+            Debug.Log(StaticToken.token);
             SceneManager.LoadScene(1);
         }
     }

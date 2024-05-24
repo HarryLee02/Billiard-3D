@@ -18,6 +18,7 @@ public class CameraController : MonoBehaviour
     Transform cueBall;
     GameManager gameManager;
     [SerializeField] TextMeshProUGUI powerText;
+    [SerializeField] GameObject pauseMenu;
 
     private void Awake()
     {
@@ -50,7 +51,6 @@ public class CameraController : MonoBehaviour
 
             transform.RotateAround(cueBall.position, Vector3.up, horizontalInput);
         }
-
         Shoot();
     }
 
@@ -86,10 +86,12 @@ public class CameraController : MonoBehaviour
                 }
                 if (Input.GetButtonDown("Fire1"))
                 {
+                    AudioManager.instance.PlaySFX("CueHit");
                     Vector3 hitDirection = transform.forward;
                     hitDirection = new Vector3(hitDirection.x, 0, hitDirection.z).normalized;
 
                     cueBall.gameObject.GetComponent<Rigidbody>().AddForce(hitDirection * power * Mathf.Abs(savedMousePosition), ForceMode.Impulse);
+                    AudioManager.instance.PlaySFX("NormalCollision");
                     cueStick.SetActive(false);
                     gameManager.SwitchCamera();
                     isTakingShot = false;

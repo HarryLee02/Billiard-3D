@@ -251,6 +251,7 @@ public class GameManager : MonoBehaviour
         if (other.gameObject.CompareTag("Ball"))
         {
             ballPocketed = true;
+            AudioManager.instance.PlaySFX("BallPocketed");
             if (CheckBall(other.gameObject.GetComponent<Ball>()))
             {
                 Destroy(other.gameObject);
