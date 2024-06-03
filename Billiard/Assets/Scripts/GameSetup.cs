@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class NewBehaviourScript : MonoBehaviour
 {   
@@ -23,13 +24,13 @@ public class NewBehaviourScript : MonoBehaviour
 
     void PlaceAllBalls()
     {
-        PlaceCueBall();
+        PlaceCueBall(cueBallPosition.position);
         PlaceRandomBalls();
     }
 
-    void PlaceCueBall()
+    public void PlaceCueBall(Vector3 position)
     {
-        GameObject ball = Instantiate(ballPrefab, cueBallPosition.position, Quaternion.identity);
+        GameObject ball = Instantiate(ballPrefab, position, Quaternion.identity);
         ball.GetComponent<Ball>().MakeCueBall();
     }
 

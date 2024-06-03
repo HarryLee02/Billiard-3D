@@ -48,9 +48,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] Camera overheadCamera;
     Camera currentCamera;
 
+<<<<<<< Updated upstream
     [DllImport("user32.dll")]
     private static extern bool SetCursorPos(int X, int Y);
     public BoxCollider boundsCollider;
+=======
+    private Vector3 worldPosition;
+    [SerializeField] GameObject ballPrefab;
+    Ball ball;
+>>>>>>> Stashed changes
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +69,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< Updated upstream
+=======
+        if (isFoul)
+        {
+            ReplaceCueBall();
+        }
+
+>>>>>>> Stashed changes
         if (isWaitingForBallMovementToStop && !isGameOver)
         {
             currentTimer -= Time.deltaTime;
@@ -80,7 +94,7 @@ public class GameManager : MonoBehaviour
                     break;
                 }
             }
-            if (allStopped)
+            if (allStopped && !isFoul)
             {
                 isWaitingForBallMovementToStop = false;
                 if (willSwapPlayers || !ballPocketed)
@@ -342,9 +356,10 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-    public void ReplaceCueBall()
+    public void  ReplaceCueBall()
     {
         Cursor.lockState = CursorLockMode.None;
+<<<<<<< Updated upstream
         // Get the mouse position in screen coordinates
         Vector3 mousePosition = Input.mousePosition;
 
@@ -359,6 +374,26 @@ public class GameManager : MonoBehaviour
 
         // Set the cursor position
         SetCursorPos((int)mousePosition.x, (int)(Screen.height - mousePosition.y));
+=======
+        Cursor.visible = true;
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            // Get the mouse position in screen coordinates
+            Vector3 mousePosition = Input.mousePosition;
+
+            // Print the mouse position to the debug log
+            Debug.Log("Mouse Position on Click (Screen): " + mousePosition);
+
+            // Convert the mouse position to world coordinates
+            worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, currentCamera.nearClipPlane));
+
+            // Print the world position to the debug log
+            Debug.Log("Mouse Position on Click (World): " + worldPosition);
+
+            isFoul = false;
+        }
+>>>>>>> Stashed changes
     }
 
     private void OnTriggerEnter(Collider other)
@@ -373,7 +408,14 @@ public class GameManager : MonoBehaviour
             }
             else
             {
+<<<<<<< Updated upstream
                 other.gameObject.transform.position = boundsCollider.transform.position;
+=======
+                isFoul = true;
+                Debug.Log("Foul");
+
+                other.gameObject.transform.position = headPosition.transform.position;
+>>>>>>> Stashed changes
                 other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
                 other.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             }
