@@ -76,10 +76,23 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Mouse Position on Click (Screen): " + mousePosition);
 
                 // Convert the mouse position to world coordinates
-                Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, currentCamera.nearClipPlane));
+                Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y + (float)0.52, currentCamera.nearClipPlane));
 
                 // Print the world position to the debug log
                 Debug.Log("Mouse Position on Click (World): " + worldPosition);
+
+                foreach (GameObject ball in GameObject.FindGameObjectsWithTag("Ball"))
+                {
+                    if (ball.GetComponent<Ball>().IsCueBall())
+                    {
+                        ball.transform.position = worldPosition;
+                        ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                        ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+                    }
+                }
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                isFoul = false;
             }
         }
 
@@ -397,9 +410,9 @@ public class GameManager : MonoBehaviour
                 isFoul = true;
                 Debug.Log("Foul");
 
-                other.gameObject.transform.position = worldPosition;
-                other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
-                other.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+                // other.gameObject.transform.position = worldPosition;
+                // other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                // other.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             }
         }
     }
