@@ -25,23 +25,23 @@ public class UIManager : MonoBehaviour
     }
     private void Start() {
         if (PlayerPrefs.HasKey("MusicVolume") 
-        // && PlayerPrefs.HasKey("SFXVolume")
+        && PlayerPrefs.HasKey("SFXVolume")
         ) {
             LoadVolume();
         }
         else {
             PlayerPrefs.SetFloat("MusicVolume", 0.5f);
-            //PlayerPrefs.SetFloat("SFXVolume", 0.5f);
+            PlayerPrefs.SetFloat("SFXVolume", 0.5f);
             LoadVolume();
         }
         if (_MusicSlider.value != StaticToken.musicVolume && StaticToken.musicVolume != -1f) {
             _MusicSlider.value = StaticToken.musicVolume;
             PlayerPrefs.SetFloat("MusicVolume", StaticToken.musicVolume);
         }
-        // if (_SFXSlider.value != StaticToken.sfxVolume && StaticToken.sfxVolume != -1f) {
-        //     _SFXSlider.value = StaticToken.sfxVolume;
-        //     PlayerPrefs.SetFloat("SFXVolume", StaticToken.sfxVolume);
-        // }
+        if (_SFXSlider.value != StaticToken.sfxVolume && StaticToken.sfxVolume != -1f) {
+            _SFXSlider.value = StaticToken.sfxVolume;
+            PlayerPrefs.SetFloat("SFXVolume", StaticToken.sfxVolume);
+        }
     }
     //Functions to change the login screen UI
     public void LoginScreen() //Back button
@@ -68,8 +68,8 @@ public class UIManager : MonoBehaviour
     }
     private void LoadVolume() {
         _MusicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
-        //_SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
+        _SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
         MusicVolume();
-        //SFXVolume();
+        SFXVolume();
     }
 }

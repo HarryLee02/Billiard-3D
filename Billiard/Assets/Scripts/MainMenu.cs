@@ -9,13 +9,13 @@ public class MainMenu : MonoBehaviour
     [SerializeField] Slider _MusicSlider, _SFXSlider;
     private void Start() {
         if (PlayerPrefs.HasKey("MusicVolume") 
-        // && PlayerPrefs.HasKey("SFXVolume")
+        && PlayerPrefs.HasKey("SFXVolume")
         ) {
             LoadVolume();
         }
         else {
             PlayerPrefs.SetFloat("MusicVolume", 0.5f);
-            //PlayerPrefs.SetFloat("SFXVolume", 0.5f);
+            PlayerPrefs.SetFloat("SFXVolume", 0.5f);
             LoadVolume();
         }
     }
@@ -46,8 +46,8 @@ public class MainMenu : MonoBehaviour
     }
     private void LoadVolume() {
         _MusicSlider.value = StaticToken.musicVolume;
-        //_SFXSlider.value = StaticToken.sfxVolume;
+        _SFXSlider.value = StaticToken.sfxVolume;
         MusicVolume();
-        //SFXVolume();
+        SFXVolume();
     }
 }
