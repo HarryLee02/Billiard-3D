@@ -14,6 +14,7 @@ public class CameraController : MonoBehaviour
     private bool isTakingShot = false;
     [SerializeField] float maxDrawDistance;
     private float savedMousePosition;
+    public float powerValueNumber;
 
     Transform cueBall;
     GameManager gameManager;
@@ -62,7 +63,7 @@ public class CameraController : MonoBehaviour
         transform.localEulerAngles = new Vector3(downAngle, transform.localEulerAngles.y, 0);
     }
 
-    void Shoot()
+    public void Shoot()
     {
         if (gameObject.GetComponent<Camera>().enabled)
         {
@@ -80,7 +81,7 @@ public class CameraController : MonoBehaviour
                     {
                         savedMousePosition = maxDrawDistance;
                     }
-                    float powerValueNumber = ((savedMousePosition - 0) / (maxDrawDistance - 0)) * (100 - 0) + 0;
+                    powerValueNumber = ((savedMousePosition - 0) / (maxDrawDistance - 0)) * (100 - 0) + 0;
                     int powerValueInt = Mathf.RoundToInt(powerValueNumber);
                     powerText.text = "Power: " + powerValueInt + "%";
                 }
