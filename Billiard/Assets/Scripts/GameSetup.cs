@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
-{   
+{
     int redBallsRemaining = 7;
     int blueBallsRemaining = 7;
     float ballRadius;

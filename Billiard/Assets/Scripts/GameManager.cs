@@ -8,6 +8,8 @@ using System.Runtime.InteropServices;
 
 public class GameManager : MonoBehaviour
 {
+    public string ballLayerName = "BallLayer";
+
     enum CurrentPlayer
     {
         Player1,
@@ -33,6 +35,7 @@ public class GameManager : MonoBehaviour
     bool player1BallIsBlue = false;
     bool player2BallIsBlue = false;
     bool isFoul = false;
+    bool isFalling = false;
 
     [SerializeField] float shotTimer = 3f;
     private float currentTimer;
@@ -50,10 +53,19 @@ public class GameManager : MonoBehaviour
 
     private Vector3 mousePosition;
     private Vector3 worldPosition;
+    public LayerMask ballLayer1;
 
     // Start is called before the first frame update
     void Start()
     {
+        /*GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+        int ballLayer = LayerMask.NameToLayer(ballLayerName);
+
+        foreach (GameObject ball in balls)
+        {
+            ball.layer = ballLayer;
+        }*/
+
         currentPlayer = CurrentPlayer.Player1;
         currentCamera = cueStickCamera;
         currentTimer = shotTimer;
@@ -62,23 +74,19 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isFoul)
+        if (isFoul && !isGameOver)
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
 
             if (Input.GetMouseButtonDown(0))
             {
-                // Get the mouse position in screen coordinates
                 Vector3 mousePosition = Input.mousePosition;
 
-                // Print the mouse position to the debug log
                 Debug.Log("Mouse Position on Click (Screen): " + mousePosition);
 
-                // Convert the mouse position to world coordinates
-                Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y + (float)0.52, currentCamera.nearClipPlane));
+                Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x + (float)0.12, mousePosition.y + (float)0.9, currentCamera.nearClipPlane + (float)0.45));
 
-                // Print the world position to the debug log
                 Debug.Log("Mouse Position on Click (World): " + worldPosition);
 
                 foreach (GameObject ball in GameObject.FindGameObjectsWithTag("Ball"))
@@ -92,11 +100,32 @@ public class GameManager : MonoBehaviour
                 }
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
-                isFoul = false;
+                isFoul = false; 
+                isFalling = true;
             }
         }
 
-        if (isWaitingForBallMovementToStop && !isGameOver)
+
+        if (isFalling)
+        {
+            foreach (GameObject ball in GameObject.FindGameObjectsWithTag("Ball"))
+            {
+                if (ball.GetComponent<Ball>().IsCueBall())
+                {
+                    float cueBallYPosition = ball.transform.position.y;
+                    if (cueBallYPosition >= 1.9)
+                    {
+                        isFalling = true;
+                    }
+                    else
+                    {
+                        isFalling = false;
+                    }
+                }
+            }
+        }
+
+        if (isWaitingForBallMovementToStop && !isGameOver && !isFalling && !isFoul)
         {
             currentTimer -= Time.deltaTime;
             if (currentTimer > 0)
@@ -368,10 +397,19 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-    public void ReplaceCueBall()
+    // Test, enable istrigger to run also
+    /*public void OnCollisionEnter(Collision collision)
     {
-
-    }
+        if ((ballLayer1.value & (1 << collision.gameObject.layer)) != 3)
+        {
+            Debug.Log("Hit the ball");
+            isFoul = false;
+        }
+        else
+        {
+            isFoul = true;
+        }
+    }*/
 
     public void OnTriggerEnter(Collider other)
     {
@@ -385,34 +423,8 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                /*Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
-
-                if (Input.GetMouseButtonDown(0))
-                {
-                    // Get the mouse position in screen coordinates
-                    Vector3 mousePosition = Input.mousePosition;
-
-                    // Print the mouse position to the debug log
-                    Debug.Log("Mouse Position on Click (Screen): " + mousePosition);
-
-                    // Convert the mouse position to world coordinates
-                    Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, Camera.main.nearClipPlane));
-
-                    // Print the world position to the debug log
-                    Debug.Log("Mouse Position on Click (World): " + worldPosition);
-
-                    other.gameObject.transform.position = worldPosition;
-                    other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
-                    other.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-                }*/
-
                 isFoul = true;
                 Debug.Log("Foul");
-
-                // other.gameObject.transform.position = worldPosition;
-                // other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
-                // other.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             }
         }
     }

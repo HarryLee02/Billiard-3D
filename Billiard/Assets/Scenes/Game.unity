@@ -755,7 +755,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 1.44
+  near clip plane: 1
   far clip plane: 10
   field of view: 60
   orthographic: 0
@@ -4119,6 +4119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eec79b424b2f614c8e495f56f1cb5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballLayerName: BallLayer
   shotTimer: 3
   movementThreshold: 0.002
   player1BallsText: {fileID: 1653871387}
@@ -4129,6 +4130,9 @@ MonoBehaviour:
   headPosition: {fileID: 965701281}
   cueStickCamera: {fileID: 963194227}
   overheadCamera: {fileID: 172968975}
+  ballLayer1:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!65 &1120331313
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8046,7 +8050,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
