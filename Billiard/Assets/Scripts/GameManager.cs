@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
-using UnityEditor.VersionControl;
 using System.Runtime.InteropServices;
 
 public class GameManager : MonoBehaviour
@@ -66,6 +65,7 @@ public class GameManager : MonoBehaviour
             ball.layer = ballLayer;
         }*/
 
+        StaticToken.p1Turn = true;
         currentPlayer = CurrentPlayer.Player1;
         currentCamera = cueStickCamera;
         currentTimer = shotTimer;
@@ -225,6 +225,7 @@ public class GameManager : MonoBehaviour
             currentTurnText.text = "Player 1's Turn";
         }
         willSwapPlayers = false;
+        StaticToken.p1Turn = !StaticToken.p1Turn;
         SwitchCamera();
     }
 

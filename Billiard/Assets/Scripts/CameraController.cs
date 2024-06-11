@@ -95,6 +95,7 @@ public class CameraController : MonoBehaviour
                     cueStick.SetActive(false);
                     gameManager.SwitchCamera();
                     isTakingShot = false;
+                    powerText.text = "Power: 0%";
                 }
             }
         }

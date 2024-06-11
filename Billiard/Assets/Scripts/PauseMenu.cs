@@ -11,6 +11,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     private void Start() {
+        Cursor.lockState = CursorLockMode.None;
         if (PlayerPrefs.HasKey("MusicVolume") 
         && PlayerPrefs.HasKey("SFXVolume")
         ) {

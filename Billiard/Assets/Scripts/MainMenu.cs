@@ -22,6 +22,9 @@ public class MainMenu : MonoBehaviour
     public void EnterGame() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void GoOnline() {
+        SceneManager.LoadScene(3);
+    }
     public void ReturnMainMenu() {
         SceneManager.LoadScene(0);
     }
