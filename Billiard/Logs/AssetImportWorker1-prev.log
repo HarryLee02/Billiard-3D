@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16005 MB
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7421 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Unity Project\2022.3.4f1\Editor\Unity.exe
+E:\Unity\2022.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/Workplace/Unity/Billiard-3D/Billiard
+E:/Workspace/Billiard-3D/Billiard
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59138
-Successfully changed project path to: D:/Workplace/Unity/Billiard-3D/Billiard
-D:/Workplace/Unity/Billiard-3D/Billiard
+62722
+Successfully changed project path to: E:/Workspace/Billiard-3D/Billiard
+E:/Workspace/Billiard-3D/Billiard
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,66 @@ D:/Workplace/Unity/Billiard-3D/Billiard
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [37164] Host "[IP] 192.168.91.1 [Port] 0 [Flags] 2 [Guid] 899789096 [EditorId] 899789096 [Version] 1048832 [Id] WindowsEditor(7,Laptopchan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2632] Host "[IP] 26.205.146.86 [Port] 0 [Flags] 2 [Guid] 3435263565 [EditorId] 3435263565 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LUB6K53Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [37164] Host "[IP] 192.168.91.1 [Port] 0 [Flags] 2 [Guid] 899789096 [EditorId] 899789096 [Version] 1048832 [Id] WindowsEditor(7,Laptopchan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2632] Host "[IP] 26.205.146.86 [Port] 0 [Flags] 2 [Guid] 3435263565 [EditorId] 3435263565 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LUB6K53Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 13.24 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 12.77 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
-[Subsystems] Discovering subsystems at path E:/Unity Project/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Workplace/Unity/Billiard-3D/Billiard/Assets
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Workspace/Billiard-3D/Billiard/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
     Vendor:   NVIDIA
-    VRAM:     3964 MB
-    Driver:   32.0.15.5585
+    VRAM:     3977 MB
+    Driver:   31.0.15.4680
 Initialize mono
-Mono path[0] = 'E:/Unity Project/2022.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity Project/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity Project/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Mono path[0] = 'E:/Unity/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity Project/2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: E:/Unity Project/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002367 seconds.
-- Loaded All Assemblies, in  0.336 seconds
+Register platform support module: E:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002866 seconds.
+- Loaded All Assemblies, in  0.353 seconds
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.257 seconds
-Domain Reload Profiling: 593ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.301 seconds
+Domain Reload Profiling: 655ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (8ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (85ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (139ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (257ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (302ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (199ms)
+		SetupLoadedEditorAssemblies (232ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (126ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,61 +116,66 @@ Domain Reload Profiling: 593ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.600 seconds
-Refreshing native plugins compatible for Editor in 4.18 ms, found 7 plugins.
+Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Assembly 'Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Assembly 'Assets/Firebase/Editor/Firebase.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.450 seconds
-Domain Reload Profiling: 1050ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 1318ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (435ms)
-		LoadAssemblies (232ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (567ms)
+		LoadAssemblies (334ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (247ms)
-			TypeCache.Refresh (229ms)
-				TypeCache.ScanAssembly (217ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (450ms)
+	FinalizeReload (533ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (325ms)
+		SetupLoadedEditorAssemblies (386ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (245ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.88 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.40 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (72.1 KB). Loaded Objects now: 3798.
-Memory consumption went from 127.2 MB to 127.1 MB.
-Total: 2.908500 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.438900 ms  DeleteObjects: 0.129100 ms)
+Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (73.1 KB). Loaded Objects now: 3796.
+Memory consumption went from 127.4 MB to 127.3 MB.
+Total: 4.380300 ms (FindLiveObjects: 0.315000 ms CreateObjectMapping: 0.196800 ms MarkObjects: 3.622700 ms  DeleteObjects: 0.244400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -182,20 +185,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 189550.818796 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
-  artifactKey: Guid(5e668313072df324ca43004679626550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(5e668313072df324ca43004679626550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0485ebe2aa6da053da660430c4405c11') in 0.008526 seconds
+  Time since last request: 49243.416748 seconds.
+  path: Assets/Physics Materials/Ball.physicMaterial
+  artifactKey: Guid(cb4c7bc406a86be4d91fefe73008b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Physics Materials/Ball.physicMaterial using Guid(cb4c7bc406a86be4d91fefe73008b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6656f54bc5edc2d443e6431fdf9d8f5d') in 0.016765 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(5e668313072df324ca43004679626550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(5e668313072df324ca43004679626550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2daecd1a9aa1dddd966c7142fd25f2') in 0.002413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Physics Materials/Edge.physicMaterial
+  artifactKey: Guid(00779f7ecbaf01443af1c6453af84dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Physics Materials/Edge.physicMaterial using Guid(00779f7ecbaf01443af1c6453af84dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a532b108cdb7193c0e4af42e430fee4') in 0.001125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.769517 seconds.
+  path: Assets/Prefabs/RoomInfo.prefab
+  artifactKey: Guid(db9836be26400e345883d70d9141bbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoomInfo.prefab using Guid(db9836be26400e345883d70d9141bbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caa4554423d99d4c86c20e6cd98eaee') in 0.048749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Triangulo.prefab
+  artifactKey: Guid(646d4a6e669732f49935521a5f2fcdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Triangulo.prefab using Guid(646d4a6e669732f49935521a5f2fcdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a808e3565d9940b9abae627bf2645e0d') in 0.090252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.62 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 4.76 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3799.
-Memory consumption went from 70.4 MB to 70.4 MB.
-Total: 2.646700 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.084400 ms MarkObjects: 2.359000 ms  DeleteObjects: 0.018300 ms)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3805.
+Memory consumption went from 75.5 MB to 75.5 MB.
+Total: 3.788900 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.157400 ms MarkObjects: 3.316000 ms  DeleteObjects: 0.028400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -211,3 +246,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3174.753598 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/pool_cue.prefab
+  artifactKey: Guid(b4b31424ff2e735499f825f7c7423edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/pool_cue.prefab using Guid(b4b31424ff2e735499f825f7c7423edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70a35128ac12c247e66c6b77b4254ba') in 0.600179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.418499 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/Balls/2.prefab
+  artifactKey: Guid(015f99f5fbd48f64085dc1856474c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/Balls/2.prefab using Guid(015f99f5fbd48f64085dc1856474c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6e7809fe9a93d3b43c19f8842d7bf4') in 0.018210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/Balls/5.prefab
+  artifactKey: Guid(baab3119f2e7cfd4e98c323fadbfabe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/Balls/5.prefab using Guid(baab3119f2e7cfd4e98c323fadbfabe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76990922ff6aad4e8703000f3c66c0f4') in 0.085398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/Balls/8.prefab
+  artifactKey: Guid(9881f4742661bc446ac16a822acd5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/Balls/8.prefab using Guid(9881f4742661bc446ac16a822acd5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18942411a6169d4df59b5063102ff67') in 0.019010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/Balls/4.prefab
+  artifactKey: Guid(b61dacbf709b625489a68611e1b9ba6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/Balls/4.prefab using Guid(b61dacbf709b625489a68611e1b9ba6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9a8a87755193ee79498167caa64b7e') in 0.021157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/Balls/13.prefab
+  artifactKey: Guid(93afb41ac5c365b4eaf0893037250db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/Balls/13.prefab using Guid(93afb41ac5c365b4eaf0893037250db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbdf4ab8f40708963cb6ab3329af7c3') in 0.021946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/Balls/14.prefab
+  artifactKey: Guid(0c4e4aafb1db8cf478d6339074d1b134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/Balls/14.prefab using Guid(0c4e4aafb1db8cf478d6339074d1b134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6364af7c2a8efeb61a16b01113ce96ad') in 0.015438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/Balls/15.prefab
+  artifactKey: Guid(41d441779be5e66429b8f3feb9619d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/Balls/15.prefab using Guid(41d441779be5e66429b8f3feb9619d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f208ff54ddefd84a5bfdf2d1099e7e7') in 0.018232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pool_Table_Pack/Prefabs/Balls/white.prefab
+  artifactKey: Guid(17e064aa45dc761439991e33e1445a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool_Table_Pack/Prefabs/Balls/white.prefab using Guid(17e064aa45dc761439991e33e1445a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f941adc7489490c936181dbd6ebd96') in 0.021882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
