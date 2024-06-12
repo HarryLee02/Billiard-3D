@@ -11,14 +11,14 @@ public class NetworkedPrefab
     public NetworkedPrefab(GameObject obj, string path)
     {
         Prefab = obj;
-        Path = path;
+        Path = ReturnPrefabPathModified(path);
     }
 
     private string ReturnPrefabPathModified(string path)
     {
         int extensionLength = System.IO.Path.GetExtension(path).Length;
         int additionalLength = 10;
-        int startIndex = path.ToLower().IndexOf("resourcex");
+        int startIndex = path.ToLower().IndexOf("resources");
         if (startIndex == -1)
         {
             return string.Empty;

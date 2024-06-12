@@ -41,6 +41,7 @@ public class MasterManager : SingletonScriptableObject<MasterManager>
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     public static void PopulateNetworkedPrefabs()
     {
+#if UNITY_EDITOR
         if (!Application.isEditor)
         {
             return;
@@ -59,5 +60,6 @@ public class MasterManager : SingletonScriptableObject<MasterManager>
         {
             UnityEngine.Debug.Log(Instance._networkedPrefabs[i].Prefab.name + " | " + Instance._networkedPrefabs[i].Path);
         }
+#endif
     }
 }

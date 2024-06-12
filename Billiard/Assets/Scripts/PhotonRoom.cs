@@ -39,7 +39,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks
         Debug.Log("Start game");
         if (PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.LoadLevel("GameOnline");
+            PhotonNetwork.LoadLevel("GameOnlineTest");
         }
         else Debug.Log("You are not master client");
     }

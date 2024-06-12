@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7421 MB
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16005 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Unity\2022.3.4f1\Editor\Unity.exe
+E:\Unity Project\2022.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-E:/Workspace/Billiard-3D/Billiard
+D:/Workplace/Unity/Billiard-3D/Billiard
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51684
-Successfully changed project path to: E:/Workspace/Billiard-3D/Billiard
-E:/Workspace/Billiard-3D/Billiard
+51020
+Successfully changed project path to: D:/Workplace/Unity/Billiard-3D/Billiard
+D:/Workplace/Unity/Billiard-3D/Billiard
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +49,68 @@ E:/Workspace/Billiard-3D/Billiard
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17216] Host "[IP] 26.205.146.86 [Port] 0 [Flags] 2 [Guid] 3862175538 [EditorId] 3862175538 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LUB6K53Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3220] Host "[IP] 172.29.80.1 [Port] 0 [Flags] 2 [Guid] 4234503109 [EditorId] 4234503109 [Version] 1048832 [Id] WindowsEditor(7,Laptopchan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17216] Host "[IP] 26.205.146.86 [Port] 0 [Flags] 2 [Guid] 3862175538 [EditorId] 3862175538 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LUB6K53Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3220] Host "[IP] 172.29.80.1 [Port] 0 [Flags] 2 [Guid] 4234503109 [EditorId] 4234503109 [Version] 1048832 [Id] WindowsEditor(7,Laptopchan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 18.79 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 17.63 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
-[Subsystems] Discovering subsystems at path E:/Unity/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Workspace/Billiard-3D/Billiard/Assets
+[Subsystems] Discovering subsystems at path E:/Unity Project/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Workplace/Unity/Billiard-3D/Billiard/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
     Vendor:   NVIDIA
-    VRAM:     3977 MB
-    Driver:   31.0.15.4680
+    VRAM:     3964 MB
+    Driver:   32.0.15.5585
 Initialize mono
-Mono path[0] = 'E:/Unity/2022.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Mono path[0] = 'E:/Unity Project/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Project/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Project/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003995 seconds.
-- Loaded All Assemblies, in  0.390 seconds
+Register platform support module: E:/Unity Project/2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: E:/Unity Project/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003569 seconds.
+- Loaded All Assemblies, in  0.372 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.304 seconds
-Domain Reload Profiling: 694ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.381 seconds
+Domain Reload Profiling: 753ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (144ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (152ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (304ms)
+	FinalizeReload (382ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (237ms)
+		SetupLoadedEditorAssemblies (302ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (162ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,837 +118,564 @@ Domain Reload Profiling: 694ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Assembly 'Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Assembly 'Assets/Firebase/Editor/Firebase.Editor.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  0.863 seconds
-Refreshing native plugins compatible for Editor in 7.07 ms, found 7 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.820 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for iOS target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.636 seconds
-Domain Reload Profiling: 1499ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (672ms)
-		LoadAssemblies (444ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (580ms)
+		LoadAssemblies (311ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (283ms)
-			TypeCache.Refresh (266ms)
-				TypeCache.ScanAssembly (252ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (314ms)
+				TypeCache.ScanAssembly (302ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (637ms)
+	FinalizeReload (626ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (478ms)
+		SetupLoadedEditorAssemblies (443ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.46 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 10.58 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (73.0 KB). Loaded Objects now: 3693.
-Memory consumption went from 125.5 MB to 125.4 MB.
-Total: 4.578400 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.114300 ms MarkObjects: 3.817400 ms  DeleteObjects: 0.379700 ms)
+Unloading 67 unused Assets / (72.1 KB). Loaded Objects now: 3696.
+Memory consumption went from 125.4 MB to 125.3 MB.
+Total: 4.364800 ms (FindLiveObjects: 0.240300 ms CreateObjectMapping: 0.190000 ms MarkObjects: 3.733200 ms  DeleteObjects: 0.199500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/ScoreHelper.cs: 7e2091fcb90bdab85f4be0c18d586eba -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOpenToggle.cs: 229c6038772c64902eb501df39020417 -> 
-  custom:scripting/monoscript/fileName/IsConnectedAndReadyProperty.cs: af06b6e7ee3f25798787bf32cafcb247 -> 
-  custom:scripting/monoscript/fileName/OfflineModeProperty.cs: 142619a08af07c654a2536f2386c9c6c -> 
-  custom:scripting/monoscript/fileName/Noise.cs: dc35aa19dae9f4b9d9d351205aaba1c6 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/GameVersionField.cs: e1aaf98c257ad1044f09a430176c1d25 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOfflineProperty.cs: a3b570f54686008ce7d1ddf281dfdde2 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPlayerCountProperty.cs: 2e3a71196f608331c351de9edf7166b4 -> 
-  custom:scripting/monoscript/fileName/NickNameField.cs: 4566439151a528588c6e77fbea15ef25 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersOnMasterProperty.cs: aa74237d4beb81bd33ceee77917bae47 -> 
-  custom:scripting/monoscript/fileName/GameManager.cs: 56bc6cc643bcbf5a5a0d63cbd09e7487 -> 9933fbcc6190e2a9171c2ec8808a053e
-  custom:scripting/monoscript/fileName/CurrentRoomAutoCleanupProperty.cs: a92fec09d98c752e495341af83135d64 -> 
-  custom:scripting/monoscript/fileName/DemoHubManager.cs: 0dd9c19f14946313f8d78bca90723987 -> 
-  custom:scripting/monoscript/fileName/PlayerListView.cs: 60e6f2e41401ae176dea7b70bab3c390 -> 
-  custom:scripting/monoscript/fileName/GameVersionProperty.cs: 212cdb5858947bda9a55c4e8f58ef2c6 -> 
-  custom:scripting/monoscript/fileName/CreateRoomUiForm.cs: bf1ce360a976c4439345f8064d17d3ad -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/PlayerControl.cs: 6df8b26511518ec75eac4160d12ac3bc -> 
-  custom:scripting/monoscript/fileName/LineInspector.cs: b46fbdbe979ee95575b26620e8af2791 -> 
-  custom:scripting/monoscript/fileName/PlayerListEntry.cs: 3811c0a731ead3815771e470aaca8954 -> 
-  custom:scripting/monoscript/fileName/SplinePosition.cs: b39b2fa35faaacaf63f8929368e2e5de -> 
-  custom:scripting/monoscript/fileName/CurrentRoomMaxPlayersProperty.cs: f8d2a9d7157be1b82e5db9695b63da90 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/PunStartup.cs: 961ddc858b2c0426ca5019c7e78c4fbf -> 
-  custom:scripting/monoscript/fileName/PlayerUI.cs: 4d64fa5e9e8828968d6cc191a132718d -> 
-  custom:scripting/monoscript/fileName/CloudRegionProperty.cs: a98a80d4740fc4627fa07cd0d1b937f1 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/IntInputField.cs: 40c0ee81b04639c26264c222a1aaea0c -> 
-  custom:scripting/monoscript/fileName/StringInputField.cs: 766f94c288e6bb2cfcd18d60914c0461 -> 
-  custom:scripting/monoscript/fileName/ToggleExpand.cs: 8df2d7619ad2c56cf93b2f0cedc9c9a4 -> 
-  custom:scripting/monoscript/fileName/PunCockpit.cs: 534cb157a89724d3ca07a36bb2005880 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomEmptyRoomTtlProperty.cs: ba459c40e550063227b6dbef6f2e12d7 -> 
-  custom:scripting/monoscript/fileName/PlayerListCell.cs: 76799f985e8a3951e5d132618c3350d8 -> 
-  custom:scripting/monoscript/fileName/WorldGenerator.cs: dca0ae82b72e05480b823fc7043006c0 -> 
-  custom:scripting/monoscript/fileName/NetworkPrefab.cs: 351501f0f08f309711ef303bf99b89fe -> 
-  custom:scripting/monoscript/fileName/RoomListCell.cs: 8d1543bdc9816b8a578d6cd2eebe48be -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPlayerTtlProperty.cs: 5737d382a26e8898e597b19ab06904c5 -> 
-  custom:scripting/monoscript/fileName/RoomListEntry.cs: c7ba9dd428a6b8b410fe51075bfba1e1 -> 
-  custom:scripting/monoscript/fileName/PlayerNameInputField.cs: 27839abf4289ab34aa2cc2967033966d -> 
-  custom:scripting/monoscript/fileName/CurrentRoomNameProperty.cs: 72010acf97fe1f3e9ff0b8c322c93e83 -> 
-  custom:scripting/monoscript/fileName/IngameControlPanel.cs: e8e78297d18e08fd0d6ef99a75e376c2 -> 
-  custom:scripting/monoscript/fileName/BezierSpline.cs: fdb9ccdef0d3985b914118aec7c411f2 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomMasterClientIdProperty.cs: 8a7f2b18c7369cf86e69820d5f0602fe -> 
-  custom:scripting/monoscript/fileName/IsConnectedProperty.cs: 981ecf71603e1baa6ce21b0fd1acc020 -> 
-  custom:scripting/monoscript/fileName/LobbyTopPanel.cs: 830e03b228bff7a95bbb092a2d6b29d2 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsVisibleToggle.cs: 47a99e70dc7fd5d059dfbf899c22bbdb -> 
-  custom:scripting/monoscript/fileName/PlayerOverviewPanel.cs: 515bb293728f907f134591646985b9ce -> 
-  custom:scripting/monoscript/fileName/OnlineDocButton.cs: e8bceb35def1f2c21aeb107b10e7c020 -> 
-  custom:scripting/monoscript/fileName/PlayerManager.cs: 5b0494b39b9a262c0ad29b1931262023 -> 
-  custom:scripting/monoscript/fileName/RegionListCell.cs: f6a1e00ce33d3dec4b7e2cfe425726c7 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Cluster.cs: 5ff22076c2cc06a01d1cc1c38d08f712 -> 
-  custom:scripting/monoscript/fileName/AsteroidsGameManager.cs: 12a51843b5b71df994a62f28231ff7ef -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOpenProperty.cs: 401af34d1219dc5c3b2d226ce3b12b08 -> 
-  custom:scripting/monoscript/fileName/BestRegionInPrefsProperty.cs: f81195994c87654890233836f627cd69 -> 
-  custom:scripting/monoscript/fileName/AppVersionProperty.cs: a4b4daafa219f35ecce40e74ac804003 -> 
-  custom:scripting/monoscript/fileName/PlayerAnimatorManager.cs: a7d34eb870b3ee44c83d5db31316a095 -> 
-  custom:scripting/monoscript/fileName/OnlineGameSetup.cs: 6e7232d7797c9f3a2e00876fdf13ecc3 -> 
-  custom:scripting/monoscript/fileName/ProceduralController.cs: 294ae00e975ca4fe85822d6f85fe658a -> 
-  custom:scripting/monoscript/fileName/ServerAddressProperty.cs: 284ddbe40a77584c9c8835a0d4d63859 -> 
-  custom:scripting/monoscript/fileName/RegionListView.cs: d1509ce3c1dcf26ebb758f8eb59e1c54 -> 
-  custom:scripting/monoscript/fileName/GameSetting.cs: d07146bc2d66e38f10932e1aae3dbd8f -> 
-  custom:scripting/monoscript/fileName/ConnectToRegionUIForm.cs: 662fbbb8f06b04129a615111e69dec89 -> 
-  custom:scripting/monoscript/fileName/Spaceship.cs: 77d86dcddcb47a6cc18163eb292fa20b -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCharacter.cs: d37a384ef7557636dd0499ecb4e48640 -> 
-  custom:scripting/monoscript/fileName/WebRpcImplementationExample.cs: 7bff59c7defddf73a4ceae1090065bd1 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/SendRateOnSerializeField.cs: 8559ed016d3004cf7fa75b6b51babcf0 -> 
-  custom:scripting/monoscript/fileName/LobbyMainPanel.cs: bee85956556c66d6096a3300e7923c77 -> 
-  custom:scripting/monoscript/fileName/AutoSyncSceneToggle.cs: f5a0c8cb6428054959052eda2623401a -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/FriendListCell.cs: 8dfedb1e000853780b714ad0651f22a9 -> 
-  custom:scripting/monoscript/fileName/SlotRacerSplashScreen.cs: 76e2c64393d61c31f26e20612278ec67 -> 
-  custom:scripting/monoscript/fileName/PlayerDetailsController.cs: 4a8b583bcd181f124e040cd407eab3b7 -> 
-  custom:scripting/monoscript/fileName/BackgroundTimeOutField.cs: 301f4bb8d6480b188021ecf99ba8be6c -> 
-  custom:scripting/monoscript/fileName/ToDemoHubButton.cs: 76a2afa2c645f73081ead15c9512dae8 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersInRoomProperty.cs: 22a26994633102695250e14533d8bd88 -> 
-  custom:scripting/monoscript/fileName/LayoutElementMatchSize.cs: 325cd6d9cb44d01cc8cfa43a5413de8f -> 
-  custom:scripting/monoscript/fileName/UserIdField.cs: 889d45ebefa87613726b801d1e5e80c8 -> 
-  custom:scripting/monoscript/fileName/InfosPanelPlaceholder.cs: fef54b122412d96995fae2ad440bb18b -> 
-  custom:scripting/monoscript/fileName/Block.cs: 4912a9664024ee7276656eb28373609a -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/DocLinks.cs: 22fc6e62d47c65fdd35bd32f57891e69 -> 
-  custom:scripting/monoscript/fileName/FriendListView.cs: 04c66340ac95991cba62207cfc3f8015 -> 
-  custom:scripting/monoscript/fileName/Bezier.cs: b8534c761c3f32134ac0822189e167cc -> 
-  custom:scripting/monoscript/fileName/DocLinkButton.cs: 551275f4066ad419ab79864501010643 -> 
-  custom:scripting/monoscript/fileName/BezierSplineInspector.cs: 64d312faa4ce8272425b85e56f7f3f74 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersProperty.cs: 92593170cc4984fa211f8cfbd69ac9a3 -> 
-  custom:scripting/monoscript/fileName/SlotLanes.cs: 97949fb7cbc49a87a0e9a949a270c39f -> 
-  custom:scripting/monoscript/fileName/AsteroidsGame.cs: 39019f3fa92643372bcb4670a7434593 -> 
-  custom:scripting/monoscript/fileName/ScriptableSingletonObject.cs: 6c03943cd2b31c3cf982659f4bcabb81 -> 
-  custom:scripting/monoscript/fileName/SplineWalker.cs: 5be65352f0f07fbe7665dfb31e99644d -> 
-  custom:scripting/monoscript/fileName/LoaderAnime.cs: 95ab941fc8d4427c4fa6c07cf9af1057 -> 
-  custom:scripting/monoscript/fileName/PingProperty.cs: 9f24d087d77c62d9ddcbab43ed4cd5fe -> 
-  custom:scripting/monoscript/fileName/Launcher.cs: 6d0f0651107e8b978d50eb5d8ca63cd3 -> 
-  custom:scripting/monoscript/fileName/SendRateField.cs: 5786bd6806651c5e23c7d4a511e3dfaa -> 
-  custom:scripting/monoscript/fileName/PropertyCell.cs: caa15b0e3299de64e13d6f1d4cf295aa -> 
-  custom:scripting/monoscript/fileName/CountOfRoomsProperty.cs: c0688910145f665105cec6c6eaf4f03c -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/ServerProperty.cs: d53bc3d40dee4679a13aa7a9ff58706e -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/NetworkedPrefab.cs: 891cabbbd6d36c9c0588356be31dd109 -> 3b68b6524a25c4dd27575fc85d31117a
-  custom:scripting/monoscript/fileName/UserIdUiForm.cs: 0a1836b26b3227dc4bf5c907f6dcc697 -> 
-  custom:scripting/monoscript/fileName/LoadLevelUIForm.cs: 6198023540609558b39b6b3a84524494 -> 
-  custom:scripting/monoscript/fileName/Asteroid.cs: 8382d1ead570177214081c1ec12affef -> 
-  custom:scripting/monoscript/fileName/Bullet.cs: 77c411c50d821352e611a16c30f40226 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsVisibleProperty.cs: be95d33e9289a548289bfd3ab9507d59 -> 
-  custom:scripting/monoscript/fileName/BezierCurveInspector.cs: cd033eb785ec71c240751fc164fcbff1 -> 
-  custom:scripting/monoscript/fileName/MasterManager.cs: 5442adf30db3d6221fb258a78f958936 -> 9491d459fd03970af1f092c3af170e21
-  custom:scripting/monoscript/fileName/CrcCheckToggle.cs: a236d00910b93ad4ae792080fb07508e -> 
-  custom:scripting/monoscript/fileName/BezierCurve.cs: 6855a37c0f6b23766e2a15354899a784 -> 
-  custom:scripting/monoscript/fileName/SingletonScriptableObject.cs: 6d3ac68372bb83d5095faa689163d5e9 -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/Line.cs: 5e23c11e3450a3cc94ccc16c37b15685 -> 
-  custom:scripting/monoscript/fileName/SetRoomCustomPropertyUIForm.cs: 9f1b75809ed6e2f34b0b61446d287bd4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/PropertyListenerBase.cs: f9338b1da94c09d1d4dc5b01f854e0e3 -> 
-  custom:scripting/monoscript/fileName/RoomListView.cs: 2b7207d3ddc2539dd2b806ed485e033b -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPropertiesListedInLobbyProperty.cs: c8880d240fca5295b2028661629631dc -> 
-  custom:scripting/monoscript/fileName/CurrentRoomExpectedUsersProperty.cs: 15c7823a1b55465c741092cad452b5e4 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonUserControl.cs: 1e36b4529ca7c2f8667ed6449c3722b9 -> 
-  custom:scripting/monoscript/fileName/BoolInputField.cs: 96b6c600bd0428819f492c767ecf8b5b -> 
-  custom:scripting/monoscript/fileName/CameraWork.cs: 7182be285ca897b882f7b04a97b5001a -> 
-  custom:scripting/monoscript/fileName/PunCockpitEmbed.cs: 2240c92b97535c6672465e83f1e36036 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 484835.162015 seconds.
+  path: Assets/Resources/Balls/1.prefab
+  artifactKey: Guid(5eec285809d6b404f89d684482696df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Balls/1.prefab using Guid(5eec285809d6b404f89d684482696df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275ddfadd08eeaf2bef8d3007d6319d4') in 0.119863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Assembly 'Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Assembly 'Assets/Firebase/Editor/Firebase.Editor.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  0.792 seconds
-Refreshing native plugins compatible for Editor in 6.42 ms, found 7 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.228 seconds
+Refreshing native plugins compatible for Editor in 10.38 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for iOS target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.169 seconds
-Domain Reload Profiling: 1961ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.876 seconds
+Domain Reload Profiling: 2104ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (961ms)
+		LoadAssemblies (464ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (573ms)
+			TypeCache.Refresh (565ms)
+				TypeCache.ScanAssembly (550ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (877ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 7.36 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (46.1 KB). Loaded Objects now: 3708.
+Memory consumption went from 125.6 MB to 125.6 MB.
+Total: 3.600900 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.183500 ms MarkObjects: 2.976800 ms  DeleteObjects: 0.157700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 460.178113 seconds.
+  path: Assets/Scripts/Managers/BallInitializer.cs
+  artifactKey: Guid(487610bf69b0af8438a4a10d5f5e99d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/BallInitializer.cs using Guid(487610bf69b0af8438a4a10d5f5e99d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee77583af1832932d90469826f1fb04c') in 0.004553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.578 seconds
+Refreshing native plugins compatible for Editor in 4.03 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.635 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (554ms)
-		LoadAssemblies (354ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (248ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (271ms)
-			TypeCache.Refresh (267ms)
-				TypeCache.ScanAssembly (247ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1169ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (635ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
+		SetupLoadedEditorAssemblies (275ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (275ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.86 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 6.58 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (47.2 KB). Loaded Objects now: 3697.
-Memory consumption went from 121.5 MB to 121.4 MB.
-Total: 3.429500 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.147600 ms MarkObjects: 2.888600 ms  DeleteObjects: 0.102600 ms)
+Unloading 56 unused Assets / (46.2 KB). Loaded Objects now: 3713.
+Memory consumption went from 125.7 MB to 125.6 MB.
+Total: 3.345100 ms (FindLiveObjects: 0.204700 ms CreateObjectMapping: 0.156600 ms MarkObjects: 2.872500 ms  DeleteObjects: 0.109800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/ScoreHelper.cs: 7e2091fcb90bdab85f4be0c18d586eba -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOpenToggle.cs: 229c6038772c64902eb501df39020417 -> 
-  custom:scripting/monoscript/fileName/IsConnectedAndReadyProperty.cs: af06b6e7ee3f25798787bf32cafcb247 -> 
-  custom:scripting/monoscript/fileName/OfflineModeProperty.cs: 142619a08af07c654a2536f2386c9c6c -> 
-  custom:scripting/monoscript/fileName/Noise.cs: dc35aa19dae9f4b9d9d351205aaba1c6 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/GameVersionField.cs: e1aaf98c257ad1044f09a430176c1d25 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOfflineProperty.cs: a3b570f54686008ce7d1ddf281dfdde2 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPlayerCountProperty.cs: 2e3a71196f608331c351de9edf7166b4 -> 
-  custom:scripting/monoscript/fileName/NickNameField.cs: 4566439151a528588c6e77fbea15ef25 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersOnMasterProperty.cs: aa74237d4beb81bd33ceee77917bae47 -> 
-  custom:scripting/monoscript/fileName/GameManager.cs: 56bc6cc643bcbf5a5a0d63cbd09e7487 -> 9933fbcc6190e2a9171c2ec8808a053e
-  custom:scripting/monoscript/fileName/CurrentRoomAutoCleanupProperty.cs: a92fec09d98c752e495341af83135d64 -> 
-  custom:scripting/monoscript/fileName/DemoHubManager.cs: 0dd9c19f14946313f8d78bca90723987 -> 
-  custom:scripting/monoscript/fileName/PlayerListView.cs: 60e6f2e41401ae176dea7b70bab3c390 -> 
-  custom:scripting/monoscript/fileName/GameVersionProperty.cs: 212cdb5858947bda9a55c4e8f58ef2c6 -> 
-  custom:scripting/monoscript/fileName/CreateRoomUiForm.cs: bf1ce360a976c4439345f8064d17d3ad -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/PlayerControl.cs: 6df8b26511518ec75eac4160d12ac3bc -> 
-  custom:scripting/monoscript/fileName/LineInspector.cs: b46fbdbe979ee95575b26620e8af2791 -> 
-  custom:scripting/monoscript/fileName/PlayerListEntry.cs: 3811c0a731ead3815771e470aaca8954 -> 
-  custom:scripting/monoscript/fileName/SplinePosition.cs: b39b2fa35faaacaf63f8929368e2e5de -> 
-  custom:scripting/monoscript/fileName/CurrentRoomMaxPlayersProperty.cs: f8d2a9d7157be1b82e5db9695b63da90 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/PunStartup.cs: 961ddc858b2c0426ca5019c7e78c4fbf -> 
-  custom:scripting/monoscript/fileName/PlayerUI.cs: 4d64fa5e9e8828968d6cc191a132718d -> 
-  custom:scripting/monoscript/fileName/CloudRegionProperty.cs: a98a80d4740fc4627fa07cd0d1b937f1 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/IntInputField.cs: 40c0ee81b04639c26264c222a1aaea0c -> 
-  custom:scripting/monoscript/fileName/StringInputField.cs: 766f94c288e6bb2cfcd18d60914c0461 -> 
-  custom:scripting/monoscript/fileName/ToggleExpand.cs: 8df2d7619ad2c56cf93b2f0cedc9c9a4 -> 
-  custom:scripting/monoscript/fileName/PunCockpit.cs: 534cb157a89724d3ca07a36bb2005880 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomEmptyRoomTtlProperty.cs: ba459c40e550063227b6dbef6f2e12d7 -> 
-  custom:scripting/monoscript/fileName/PlayerListCell.cs: 76799f985e8a3951e5d132618c3350d8 -> 
-  custom:scripting/monoscript/fileName/WorldGenerator.cs: dca0ae82b72e05480b823fc7043006c0 -> 
-  custom:scripting/monoscript/fileName/NetworkPrefab.cs: 351501f0f08f309711ef303bf99b89fe -> 
-  custom:scripting/monoscript/fileName/RoomListCell.cs: 8d1543bdc9816b8a578d6cd2eebe48be -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPlayerTtlProperty.cs: 5737d382a26e8898e597b19ab06904c5 -> 
-  custom:scripting/monoscript/fileName/RoomListEntry.cs: c7ba9dd428a6b8b410fe51075bfba1e1 -> 
-  custom:scripting/monoscript/fileName/PlayerNameInputField.cs: 27839abf4289ab34aa2cc2967033966d -> 
-  custom:scripting/monoscript/fileName/CurrentRoomNameProperty.cs: 72010acf97fe1f3e9ff0b8c322c93e83 -> 
-  custom:scripting/monoscript/fileName/IngameControlPanel.cs: e8e78297d18e08fd0d6ef99a75e376c2 -> 
-  custom:scripting/monoscript/fileName/BezierSpline.cs: fdb9ccdef0d3985b914118aec7c411f2 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomMasterClientIdProperty.cs: 8a7f2b18c7369cf86e69820d5f0602fe -> 
-  custom:scripting/monoscript/fileName/IsConnectedProperty.cs: 981ecf71603e1baa6ce21b0fd1acc020 -> 
-  custom:scripting/monoscript/fileName/LobbyTopPanel.cs: 830e03b228bff7a95bbb092a2d6b29d2 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsVisibleToggle.cs: 47a99e70dc7fd5d059dfbf899c22bbdb -> 
-  custom:scripting/monoscript/fileName/PlayerOverviewPanel.cs: 515bb293728f907f134591646985b9ce -> 
-  custom:scripting/monoscript/fileName/OnlineDocButton.cs: e8bceb35def1f2c21aeb107b10e7c020 -> 
-  custom:scripting/monoscript/fileName/PlayerManager.cs: 5b0494b39b9a262c0ad29b1931262023 -> 
-  custom:scripting/monoscript/fileName/RegionListCell.cs: f6a1e00ce33d3dec4b7e2cfe425726c7 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Cluster.cs: 5ff22076c2cc06a01d1cc1c38d08f712 -> 
-  custom:scripting/monoscript/fileName/AsteroidsGameManager.cs: 12a51843b5b71df994a62f28231ff7ef -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOpenProperty.cs: 401af34d1219dc5c3b2d226ce3b12b08 -> 
-  custom:scripting/monoscript/fileName/BestRegionInPrefsProperty.cs: f81195994c87654890233836f627cd69 -> 
-  custom:scripting/monoscript/fileName/AppVersionProperty.cs: a4b4daafa219f35ecce40e74ac804003 -> 
-  custom:scripting/monoscript/fileName/PlayerAnimatorManager.cs: a7d34eb870b3ee44c83d5db31316a095 -> 
-  custom:scripting/monoscript/fileName/OnlineGameSetup.cs: 6e7232d7797c9f3a2e00876fdf13ecc3 -> 
-  custom:scripting/monoscript/fileName/ProceduralController.cs: 294ae00e975ca4fe85822d6f85fe658a -> 
-  custom:scripting/monoscript/fileName/ServerAddressProperty.cs: 284ddbe40a77584c9c8835a0d4d63859 -> 
-  custom:scripting/monoscript/fileName/RegionListView.cs: d1509ce3c1dcf26ebb758f8eb59e1c54 -> 
-  custom:scripting/monoscript/fileName/GameSetting.cs: d07146bc2d66e38f10932e1aae3dbd8f -> 
-  custom:scripting/monoscript/fileName/ConnectToRegionUIForm.cs: 662fbbb8f06b04129a615111e69dec89 -> 
-  custom:scripting/monoscript/fileName/Spaceship.cs: 77d86dcddcb47a6cc18163eb292fa20b -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCharacter.cs: d37a384ef7557636dd0499ecb4e48640 -> 
-  custom:scripting/monoscript/fileName/WebRpcImplementationExample.cs: 7bff59c7defddf73a4ceae1090065bd1 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/SendRateOnSerializeField.cs: 8559ed016d3004cf7fa75b6b51babcf0 -> 
-  custom:scripting/monoscript/fileName/LobbyMainPanel.cs: bee85956556c66d6096a3300e7923c77 -> 
-  custom:scripting/monoscript/fileName/AutoSyncSceneToggle.cs: f5a0c8cb6428054959052eda2623401a -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/FriendListCell.cs: 8dfedb1e000853780b714ad0651f22a9 -> 
-  custom:scripting/monoscript/fileName/SlotRacerSplashScreen.cs: 76e2c64393d61c31f26e20612278ec67 -> 
-  custom:scripting/monoscript/fileName/PlayerDetailsController.cs: 4a8b583bcd181f124e040cd407eab3b7 -> 
-  custom:scripting/monoscript/fileName/BackgroundTimeOutField.cs: 301f4bb8d6480b188021ecf99ba8be6c -> 
-  custom:scripting/monoscript/fileName/ToDemoHubButton.cs: 76a2afa2c645f73081ead15c9512dae8 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersInRoomProperty.cs: 22a26994633102695250e14533d8bd88 -> 
-  custom:scripting/monoscript/fileName/LayoutElementMatchSize.cs: 325cd6d9cb44d01cc8cfa43a5413de8f -> 
-  custom:scripting/monoscript/fileName/UserIdField.cs: 889d45ebefa87613726b801d1e5e80c8 -> 
-  custom:scripting/monoscript/fileName/InfosPanelPlaceholder.cs: fef54b122412d96995fae2ad440bb18b -> 
-  custom:scripting/monoscript/fileName/Block.cs: 4912a9664024ee7276656eb28373609a -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/DocLinks.cs: 22fc6e62d47c65fdd35bd32f57891e69 -> 
-  custom:scripting/monoscript/fileName/FriendListView.cs: 04c66340ac95991cba62207cfc3f8015 -> 
-  custom:scripting/monoscript/fileName/Bezier.cs: b8534c761c3f32134ac0822189e167cc -> 
-  custom:scripting/monoscript/fileName/DocLinkButton.cs: 551275f4066ad419ab79864501010643 -> 
-  custom:scripting/monoscript/fileName/BezierSplineInspector.cs: 64d312faa4ce8272425b85e56f7f3f74 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersProperty.cs: 92593170cc4984fa211f8cfbd69ac9a3 -> 
-  custom:scripting/monoscript/fileName/SlotLanes.cs: 97949fb7cbc49a87a0e9a949a270c39f -> 
-  custom:scripting/monoscript/fileName/AsteroidsGame.cs: 39019f3fa92643372bcb4670a7434593 -> 
-  custom:scripting/monoscript/fileName/ScriptableSingletonObject.cs: 6c03943cd2b31c3cf982659f4bcabb81 -> 
-  custom:scripting/monoscript/fileName/SplineWalker.cs: 5be65352f0f07fbe7665dfb31e99644d -> 
-  custom:scripting/monoscript/fileName/LoaderAnime.cs: 95ab941fc8d4427c4fa6c07cf9af1057 -> 
-  custom:scripting/monoscript/fileName/PingProperty.cs: 9f24d087d77c62d9ddcbab43ed4cd5fe -> 
-  custom:scripting/monoscript/fileName/Launcher.cs: 6d0f0651107e8b978d50eb5d8ca63cd3 -> 
-  custom:scripting/monoscript/fileName/SendRateField.cs: 5786bd6806651c5e23c7d4a511e3dfaa -> 
-  custom:scripting/monoscript/fileName/PropertyCell.cs: caa15b0e3299de64e13d6f1d4cf295aa -> 
-  custom:scripting/monoscript/fileName/CountOfRoomsProperty.cs: c0688910145f665105cec6c6eaf4f03c -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/ServerProperty.cs: d53bc3d40dee4679a13aa7a9ff58706e -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/NetworkedPrefab.cs: 891cabbbd6d36c9c0588356be31dd109 -> 3b68b6524a25c4dd27575fc85d31117a
-  custom:scripting/monoscript/fileName/UserIdUiForm.cs: 0a1836b26b3227dc4bf5c907f6dcc697 -> 
-  custom:scripting/monoscript/fileName/LoadLevelUIForm.cs: 6198023540609558b39b6b3a84524494 -> 
-  custom:scripting/monoscript/fileName/Asteroid.cs: 8382d1ead570177214081c1ec12affef -> 
-  custom:scripting/monoscript/fileName/Bullet.cs: 77c411c50d821352e611a16c30f40226 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsVisibleProperty.cs: be95d33e9289a548289bfd3ab9507d59 -> 
-  custom:scripting/monoscript/fileName/BezierCurveInspector.cs: cd033eb785ec71c240751fc164fcbff1 -> 
-  custom:scripting/monoscript/fileName/MasterManager.cs: 5442adf30db3d6221fb258a78f958936 -> 9491d459fd03970af1f092c3af170e21
-  custom:scripting/monoscript/fileName/CrcCheckToggle.cs: a236d00910b93ad4ae792080fb07508e -> 
-  custom:scripting/monoscript/fileName/BezierCurve.cs: 6855a37c0f6b23766e2a15354899a784 -> 
-  custom:scripting/monoscript/fileName/SingletonScriptableObject.cs: 6d3ac68372bb83d5095faa689163d5e9 -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/Line.cs: 5e23c11e3450a3cc94ccc16c37b15685 -> 
-  custom:scripting/monoscript/fileName/SetRoomCustomPropertyUIForm.cs: 9f1b75809ed6e2f34b0b61446d287bd4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/PropertyListenerBase.cs: f9338b1da94c09d1d4dc5b01f854e0e3 -> 
-  custom:scripting/monoscript/fileName/RoomListView.cs: 2b7207d3ddc2539dd2b806ed485e033b -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPropertiesListedInLobbyProperty.cs: c8880d240fca5295b2028661629631dc -> 
-  custom:scripting/monoscript/fileName/CurrentRoomExpectedUsersProperty.cs: 15c7823a1b55465c741092cad452b5e4 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonUserControl.cs: 1e36b4529ca7c2f8667ed6449c3722b9 -> 
-  custom:scripting/monoscript/fileName/BoolInputField.cs: 96b6c600bd0428819f492c767ecf8b5b -> 
-  custom:scripting/monoscript/fileName/CameraWork.cs: 7182be285ca897b882f7b04a97b5001a -> 
-  custom:scripting/monoscript/fileName/PunCockpitEmbed.cs: 2240c92b97535c6672465e83f1e36036 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 69814.093682 seconds.
-  path: Assets/Resources/1.prefab
-  artifactKey: Guid(aaffa49118177d747aa6a65ec153460b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/1.prefab using Guid(aaffa49118177d747aa6a65ec153460b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08696440002556f3f430ebfa2bada29') in 0.224701 seconds
+  Time since last request: 5.198543 seconds.
+  path: Assets/Scripts/Managers/BallInitializer.cs
+  artifactKey: Guid(487610bf69b0af8438a4a10d5f5e99d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/BallInitializer.cs using Guid(487610bf69b0af8438a4a10d5f5e99d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc486ef5bde79baf344e2bf4ccf77291') in 0.004228 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Resources/14.prefab
-  artifactKey: Guid(cb64525a449195144ad97454f695ae5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/14.prefab using Guid(cb64525a449195144ad97454f695ae5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115c6c746245f7476189c3bf8a4f1c72') in 0.011084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Resources/7.prefab
-  artifactKey: Guid(bd0366f40878c56468f2865d78facd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/7.prefab using Guid(bd0366f40878c56468f2865d78facd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547ce11d21958fe58534a52e8a414510') in 0.009950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/10.prefab
-  artifactKey: Guid(b0b6c417bb39bb242b930e23cd63cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/10.prefab using Guid(b0b6c417bb39bb242b930e23cd63cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b091610c29507a13c69b895f12984ffe') in 0.015703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/12.prefab
-  artifactKey: Guid(8ab1c80b1f602fd4e83f26bca23eb693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/12.prefab using Guid(8ab1c80b1f602fd4e83f26bca23eb693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac63d168dd889c60b2dca5cae94c0ca') in 0.011219 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/15.prefab
-  artifactKey: Guid(5231d1e71a4f4e54c8d831e92fe4b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/15.prefab using Guid(5231d1e71a4f4e54c8d831e92fe4b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1fa9751c6c823f4594d720ba0c13c7') in 0.009771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/3.prefab
-  artifactKey: Guid(5f31db68a9018bf4ea350783454bdafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/3.prefab using Guid(5f31db68a9018bf4ea350783454bdafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa101b6d0554a0570b1a64a2a214250b') in 0.020366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Resources/4.prefab
-  artifactKey: Guid(534c92c7031be4b4f99f42282a08834d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/4.prefab using Guid(534c92c7031be4b4f99f42282a08834d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafe3ef08e277e46b318cb978e25a4a8') in 0.010119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Resources/white.prefab
-  artifactKey: Guid(cc4def759fa478545baf86e812f7fb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/white.prefab using Guid(cc4def759fa478545baf86e812f7fb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b81d7bc6d785924bdeb3328011097a1') in 0.008161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Assembly 'Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Assembly 'Assets/Firebase/Editor/Firebase.Editor.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  0.924 seconds
-Refreshing native plugins compatible for Editor in 6.34 ms, found 7 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.881 seconds
+Refreshing native plugins compatible for Editor in 8.19 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for iOS target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.711 seconds
-Domain Reload Profiling: 1635ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 1784ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (664ms)
-		LoadAssemblies (416ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (620ms)
+		LoadAssemblies (346ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (318ms)
-			TypeCache.Refresh (313ms)
-				TypeCache.ScanAssembly (298ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (711ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (333ms)
+				TypeCache.ScanAssembly (319ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (904ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (307ms)
+		SetupLoadedEditorAssemblies (492ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (222ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 8.08 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.70 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (47.2 KB). Loaded Objects now: 3709.
-Memory consumption went from 125.8 MB to 125.7 MB.
-Total: 6.029500 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.156200 ms MarkObjects: 5.022000 ms  DeleteObjects: 0.464700 ms)
+Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (46.4 KB). Loaded Objects now: 3717.
+Memory consumption went from 125.7 MB to 125.6 MB.
+Total: 3.510000 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.949000 ms  DeleteObjects: 0.084000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/ScoreHelper.cs: 7e2091fcb90bdab85f4be0c18d586eba -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOpenToggle.cs: 229c6038772c64902eb501df39020417 -> 
-  custom:scripting/monoscript/fileName/IsConnectedAndReadyProperty.cs: af06b6e7ee3f25798787bf32cafcb247 -> 
-  custom:scripting/monoscript/fileName/OfflineModeProperty.cs: 142619a08af07c654a2536f2386c9c6c -> 
-  custom:scripting/monoscript/fileName/Noise.cs: dc35aa19dae9f4b9d9d351205aaba1c6 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/GameVersionField.cs: e1aaf98c257ad1044f09a430176c1d25 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOfflineProperty.cs: a3b570f54686008ce7d1ddf281dfdde2 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPlayerCountProperty.cs: 2e3a71196f608331c351de9edf7166b4 -> 
-  custom:scripting/monoscript/fileName/NickNameField.cs: 4566439151a528588c6e77fbea15ef25 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersOnMasterProperty.cs: aa74237d4beb81bd33ceee77917bae47 -> 
-  custom:scripting/monoscript/fileName/GameManager.cs: 56bc6cc643bcbf5a5a0d63cbd09e7487 -> 9933fbcc6190e2a9171c2ec8808a053e
-  custom:scripting/monoscript/fileName/CurrentRoomAutoCleanupProperty.cs: a92fec09d98c752e495341af83135d64 -> 
-  custom:scripting/monoscript/fileName/DemoHubManager.cs: 0dd9c19f14946313f8d78bca90723987 -> 
-  custom:scripting/monoscript/fileName/PlayerListView.cs: 60e6f2e41401ae176dea7b70bab3c390 -> 
-  custom:scripting/monoscript/fileName/GameVersionProperty.cs: 212cdb5858947bda9a55c4e8f58ef2c6 -> 
-  custom:scripting/monoscript/fileName/CreateRoomUiForm.cs: bf1ce360a976c4439345f8064d17d3ad -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/PlayerControl.cs: 6df8b26511518ec75eac4160d12ac3bc -> 
-  custom:scripting/monoscript/fileName/LineInspector.cs: b46fbdbe979ee95575b26620e8af2791 -> 
-  custom:scripting/monoscript/fileName/PlayerListEntry.cs: 3811c0a731ead3815771e470aaca8954 -> 
-  custom:scripting/monoscript/fileName/SplinePosition.cs: b39b2fa35faaacaf63f8929368e2e5de -> 
-  custom:scripting/monoscript/fileName/CurrentRoomMaxPlayersProperty.cs: f8d2a9d7157be1b82e5db9695b63da90 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/PunStartup.cs: 961ddc858b2c0426ca5019c7e78c4fbf -> 
-  custom:scripting/monoscript/fileName/PlayerUI.cs: 4d64fa5e9e8828968d6cc191a132718d -> 
-  custom:scripting/monoscript/fileName/CloudRegionProperty.cs: a98a80d4740fc4627fa07cd0d1b937f1 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/IntInputField.cs: 40c0ee81b04639c26264c222a1aaea0c -> 
-  custom:scripting/monoscript/fileName/StringInputField.cs: 766f94c288e6bb2cfcd18d60914c0461 -> 
-  custom:scripting/monoscript/fileName/ToggleExpand.cs: 8df2d7619ad2c56cf93b2f0cedc9c9a4 -> 
-  custom:scripting/monoscript/fileName/PunCockpit.cs: 534cb157a89724d3ca07a36bb2005880 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomEmptyRoomTtlProperty.cs: ba459c40e550063227b6dbef6f2e12d7 -> 
-  custom:scripting/monoscript/fileName/PlayerListCell.cs: 76799f985e8a3951e5d132618c3350d8 -> 
-  custom:scripting/monoscript/fileName/WorldGenerator.cs: dca0ae82b72e05480b823fc7043006c0 -> 
-  custom:scripting/monoscript/fileName/NetworkPrefab.cs: 351501f0f08f309711ef303bf99b89fe -> 
-  custom:scripting/monoscript/fileName/RoomListCell.cs: 8d1543bdc9816b8a578d6cd2eebe48be -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPlayerTtlProperty.cs: 5737d382a26e8898e597b19ab06904c5 -> 
-  custom:scripting/monoscript/fileName/RoomListEntry.cs: c7ba9dd428a6b8b410fe51075bfba1e1 -> 
-  custom:scripting/monoscript/fileName/PlayerNameInputField.cs: 27839abf4289ab34aa2cc2967033966d -> 
-  custom:scripting/monoscript/fileName/CurrentRoomNameProperty.cs: 72010acf97fe1f3e9ff0b8c322c93e83 -> 
-  custom:scripting/monoscript/fileName/IngameControlPanel.cs: e8e78297d18e08fd0d6ef99a75e376c2 -> 
-  custom:scripting/monoscript/fileName/BezierSpline.cs: fdb9ccdef0d3985b914118aec7c411f2 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomMasterClientIdProperty.cs: 8a7f2b18c7369cf86e69820d5f0602fe -> 
-  custom:scripting/monoscript/fileName/IsConnectedProperty.cs: 981ecf71603e1baa6ce21b0fd1acc020 -> 
-  custom:scripting/monoscript/fileName/LobbyTopPanel.cs: 830e03b228bff7a95bbb092a2d6b29d2 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsVisibleToggle.cs: 47a99e70dc7fd5d059dfbf899c22bbdb -> 
-  custom:scripting/monoscript/fileName/PlayerOverviewPanel.cs: 515bb293728f907f134591646985b9ce -> 
-  custom:scripting/monoscript/fileName/OnlineDocButton.cs: e8bceb35def1f2c21aeb107b10e7c020 -> 
-  custom:scripting/monoscript/fileName/PlayerManager.cs: 5b0494b39b9a262c0ad29b1931262023 -> 
-  custom:scripting/monoscript/fileName/RegionListCell.cs: f6a1e00ce33d3dec4b7e2cfe425726c7 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Cluster.cs: 5ff22076c2cc06a01d1cc1c38d08f712 -> 
-  custom:scripting/monoscript/fileName/AsteroidsGameManager.cs: 12a51843b5b71df994a62f28231ff7ef -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOpenProperty.cs: 401af34d1219dc5c3b2d226ce3b12b08 -> 
-  custom:scripting/monoscript/fileName/BestRegionInPrefsProperty.cs: f81195994c87654890233836f627cd69 -> 
-  custom:scripting/monoscript/fileName/AppVersionProperty.cs: a4b4daafa219f35ecce40e74ac804003 -> 
-  custom:scripting/monoscript/fileName/PlayerAnimatorManager.cs: a7d34eb870b3ee44c83d5db31316a095 -> 
-  custom:scripting/monoscript/fileName/OnlineGameSetup.cs: 6e7232d7797c9f3a2e00876fdf13ecc3 -> 
-  custom:scripting/monoscript/fileName/ProceduralController.cs: 294ae00e975ca4fe85822d6f85fe658a -> 
-  custom:scripting/monoscript/fileName/ServerAddressProperty.cs: 284ddbe40a77584c9c8835a0d4d63859 -> 
-  custom:scripting/monoscript/fileName/RegionListView.cs: d1509ce3c1dcf26ebb758f8eb59e1c54 -> 
-  custom:scripting/monoscript/fileName/GameSetting.cs: d07146bc2d66e38f10932e1aae3dbd8f -> 
-  custom:scripting/monoscript/fileName/ConnectToRegionUIForm.cs: 662fbbb8f06b04129a615111e69dec89 -> 
-  custom:scripting/monoscript/fileName/Spaceship.cs: 77d86dcddcb47a6cc18163eb292fa20b -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCharacter.cs: d37a384ef7557636dd0499ecb4e48640 -> 
-  custom:scripting/monoscript/fileName/WebRpcImplementationExample.cs: 7bff59c7defddf73a4ceae1090065bd1 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/SendRateOnSerializeField.cs: 8559ed016d3004cf7fa75b6b51babcf0 -> 
-  custom:scripting/monoscript/fileName/LobbyMainPanel.cs: bee85956556c66d6096a3300e7923c77 -> 
-  custom:scripting/monoscript/fileName/AutoSyncSceneToggle.cs: f5a0c8cb6428054959052eda2623401a -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/FriendListCell.cs: 8dfedb1e000853780b714ad0651f22a9 -> 
-  custom:scripting/monoscript/fileName/SlotRacerSplashScreen.cs: 76e2c64393d61c31f26e20612278ec67 -> 
-  custom:scripting/monoscript/fileName/PlayerDetailsController.cs: 4a8b583bcd181f124e040cd407eab3b7 -> 
-  custom:scripting/monoscript/fileName/BackgroundTimeOutField.cs: 301f4bb8d6480b188021ecf99ba8be6c -> 
-  custom:scripting/monoscript/fileName/ToDemoHubButton.cs: 76a2afa2c645f73081ead15c9512dae8 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersInRoomProperty.cs: 22a26994633102695250e14533d8bd88 -> 
-  custom:scripting/monoscript/fileName/LayoutElementMatchSize.cs: 325cd6d9cb44d01cc8cfa43a5413de8f -> 
-  custom:scripting/monoscript/fileName/UserIdField.cs: 889d45ebefa87613726b801d1e5e80c8 -> 
-  custom:scripting/monoscript/fileName/InfosPanelPlaceholder.cs: fef54b122412d96995fae2ad440bb18b -> 
-  custom:scripting/monoscript/fileName/Block.cs: 4912a9664024ee7276656eb28373609a -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/DocLinks.cs: 22fc6e62d47c65fdd35bd32f57891e69 -> 
-  custom:scripting/monoscript/fileName/FriendListView.cs: 04c66340ac95991cba62207cfc3f8015 -> 
-  custom:scripting/monoscript/fileName/Bezier.cs: b8534c761c3f32134ac0822189e167cc -> 
-  custom:scripting/monoscript/fileName/DocLinkButton.cs: 551275f4066ad419ab79864501010643 -> 
-  custom:scripting/monoscript/fileName/BezierSplineInspector.cs: 64d312faa4ce8272425b85e56f7f3f74 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersProperty.cs: 92593170cc4984fa211f8cfbd69ac9a3 -> 
-  custom:scripting/monoscript/fileName/SlotLanes.cs: 97949fb7cbc49a87a0e9a949a270c39f -> 
-  custom:scripting/monoscript/fileName/AsteroidsGame.cs: 39019f3fa92643372bcb4670a7434593 -> 
-  custom:scripting/monoscript/fileName/ScriptableSingletonObject.cs: 6c03943cd2b31c3cf982659f4bcabb81 -> 
-  custom:scripting/monoscript/fileName/SplineWalker.cs: 5be65352f0f07fbe7665dfb31e99644d -> 
-  custom:scripting/monoscript/fileName/LoaderAnime.cs: 95ab941fc8d4427c4fa6c07cf9af1057 -> 
-  custom:scripting/monoscript/fileName/PingProperty.cs: 9f24d087d77c62d9ddcbab43ed4cd5fe -> 
-  custom:scripting/monoscript/fileName/Launcher.cs: 6d0f0651107e8b978d50eb5d8ca63cd3 -> 
-  custom:scripting/monoscript/fileName/SendRateField.cs: 5786bd6806651c5e23c7d4a511e3dfaa -> 
-  custom:scripting/monoscript/fileName/PropertyCell.cs: caa15b0e3299de64e13d6f1d4cf295aa -> 
-  custom:scripting/monoscript/fileName/CountOfRoomsProperty.cs: c0688910145f665105cec6c6eaf4f03c -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/ServerProperty.cs: d53bc3d40dee4679a13aa7a9ff58706e -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/NetworkedPrefab.cs: 891cabbbd6d36c9c0588356be31dd109 -> 3b68b6524a25c4dd27575fc85d31117a
-  custom:scripting/monoscript/fileName/UserIdUiForm.cs: 0a1836b26b3227dc4bf5c907f6dcc697 -> 
-  custom:scripting/monoscript/fileName/LoadLevelUIForm.cs: 6198023540609558b39b6b3a84524494 -> 
-  custom:scripting/monoscript/fileName/Asteroid.cs: 8382d1ead570177214081c1ec12affef -> 
-  custom:scripting/monoscript/fileName/Bullet.cs: 77c411c50d821352e611a16c30f40226 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsVisibleProperty.cs: be95d33e9289a548289bfd3ab9507d59 -> 
-  custom:scripting/monoscript/fileName/BezierCurveInspector.cs: cd033eb785ec71c240751fc164fcbff1 -> 
-  custom:scripting/monoscript/fileName/MasterManager.cs: 5442adf30db3d6221fb258a78f958936 -> 9491d459fd03970af1f092c3af170e21
-  custom:scripting/monoscript/fileName/CrcCheckToggle.cs: a236d00910b93ad4ae792080fb07508e -> 
-  custom:scripting/monoscript/fileName/BezierCurve.cs: 6855a37c0f6b23766e2a15354899a784 -> 
-  custom:scripting/monoscript/fileName/SingletonScriptableObject.cs: 6d3ac68372bb83d5095faa689163d5e9 -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/Line.cs: 5e23c11e3450a3cc94ccc16c37b15685 -> 
-  custom:scripting/monoscript/fileName/SetRoomCustomPropertyUIForm.cs: 9f1b75809ed6e2f34b0b61446d287bd4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/PropertyListenerBase.cs: f9338b1da94c09d1d4dc5b01f854e0e3 -> 
-  custom:scripting/monoscript/fileName/RoomListView.cs: 2b7207d3ddc2539dd2b806ed485e033b -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPropertiesListedInLobbyProperty.cs: c8880d240fca5295b2028661629631dc -> 
-  custom:scripting/monoscript/fileName/CurrentRoomExpectedUsersProperty.cs: 15c7823a1b55465c741092cad452b5e4 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonUserControl.cs: 1e36b4529ca7c2f8667ed6449c3722b9 -> 
-  custom:scripting/monoscript/fileName/BoolInputField.cs: 96b6c600bd0428819f492c767ecf8b5b -> 
-  custom:scripting/monoscript/fileName/CameraWork.cs: 7182be285ca897b882f7b04a97b5001a -> 
-  custom:scripting/monoscript/fileName/PunCockpitEmbed.cs: 2240c92b97535c6672465e83f1e36036 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 54.373518 seconds.
-  path: Assets/Resources/2.prefab
-  artifactKey: Guid(f4cc4a6064836b941b60897a06437c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/2.prefab using Guid(f4cc4a6064836b941b60897a06437c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11cbc9e649c07fcc6fefabf68f14376') in 0.113457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Resources/12.prefab
-  artifactKey: Guid(8ab1c80b1f602fd4e83f26bca23eb693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/12.prefab using Guid(8ab1c80b1f602fd4e83f26bca23eb693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9e22cdebbdc70a136461799d51275f') in 0.020384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/9.prefab
-  artifactKey: Guid(0a811735630ea0c418c253c789aace7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/9.prefab using Guid(0a811735630ea0c418c253c789aace7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554ee07a13630ed300567ba97c8db10f') in 0.014697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Assembly 'Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Symbol file LoadedFromMemory doesn't match image E:\Workspace\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Assembly 'Assets/Firebase/Editor/Firebase.Editor.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  0.843 seconds
-Refreshing native plugins compatible for Editor in 6.62 ms, found 7 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.909 seconds
+Refreshing native plugins compatible for Editor in 7.03 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for iOS target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.629 seconds
-Domain Reload Profiling: 1472ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.963 seconds
+Domain Reload Profiling: 1871ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (601ms)
-		LoadAssemblies (342ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (351ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (322ms)
-			TypeCache.Refresh (318ms)
-				TypeCache.ScanAssembly (302ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (630ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (362ms)
+				TypeCache.ScanAssembly (349ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (964ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (313ms)
+		SetupLoadedEditorAssemblies (436ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 11.51 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (46.4 KB). Loaded Objects now: 3721.
+Memory consumption went from 125.9 MB to 125.9 MB.
+Total: 4.077100 ms (FindLiveObjects: 0.362300 ms CreateObjectMapping: 0.159200 ms MarkObjects: 3.471700 ms  DeleteObjects: 0.082200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 249.645425 seconds.
+  path: Assets/Scenes/GameOnline.unity
+  artifactKey: Guid(f93334df6930aac439f5cc9f9cc83ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOnline.unity using Guid(f93334df6930aac439f5cc9f9cc83ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe82e0be2dddbc48dff5f678f1cbfa88') in 0.005642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.611391 seconds.
+  path: Assets/Scenes/GameOnlineTest.unity
+  artifactKey: Guid(7d05679296666154f93d7eb62e67506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOnlineTest.unity using Guid(7d05679296666154f93d7eb62e67506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b282d669cd27beef5f433684c43340bb') in 0.000418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.543 seconds
+Refreshing native plugins compatible for Editor in 6.03 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path D:\Workplace\Unity\Billiard-3D\Billiard\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <9a0f277cf5334b3bbc854d5936c11028>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <9a0f277cf5334b3bbc854d5936c11028>:0 
+  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
+Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 1043ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (500ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 7.15 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 3.87 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (47.2 KB). Loaded Objects now: 3713.
-Memory consumption went from 125.8 MB to 125.7 MB.
-Total: 3.820800 ms (FindLiveObjects: 0.480800 ms CreateObjectMapping: 0.139800 ms MarkObjects: 3.085300 ms  DeleteObjects: 0.112200 ms)
+Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (46.4 KB). Loaded Objects now: 3725.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 2.859400 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.078300 ms MarkObjects: 2.394500 ms  DeleteObjects: 0.078300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/ScoreHelper.cs: 7e2091fcb90bdab85f4be0c18d586eba -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOpenToggle.cs: 229c6038772c64902eb501df39020417 -> 
-  custom:scripting/monoscript/fileName/IsConnectedAndReadyProperty.cs: af06b6e7ee3f25798787bf32cafcb247 -> 
-  custom:scripting/monoscript/fileName/OfflineModeProperty.cs: 142619a08af07c654a2536f2386c9c6c -> 
-  custom:scripting/monoscript/fileName/Noise.cs: dc35aa19dae9f4b9d9d351205aaba1c6 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/GameVersionField.cs: e1aaf98c257ad1044f09a430176c1d25 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOfflineProperty.cs: a3b570f54686008ce7d1ddf281dfdde2 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPlayerCountProperty.cs: 2e3a71196f608331c351de9edf7166b4 -> 
-  custom:scripting/monoscript/fileName/NickNameField.cs: 4566439151a528588c6e77fbea15ef25 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersOnMasterProperty.cs: aa74237d4beb81bd33ceee77917bae47 -> 
-  custom:scripting/monoscript/fileName/GameManager.cs: 56bc6cc643bcbf5a5a0d63cbd09e7487 -> 9933fbcc6190e2a9171c2ec8808a053e
-  custom:scripting/monoscript/fileName/CurrentRoomAutoCleanupProperty.cs: a92fec09d98c752e495341af83135d64 -> 
-  custom:scripting/monoscript/fileName/DemoHubManager.cs: 0dd9c19f14946313f8d78bca90723987 -> 
-  custom:scripting/monoscript/fileName/PlayerListView.cs: 60e6f2e41401ae176dea7b70bab3c390 -> 
-  custom:scripting/monoscript/fileName/GameVersionProperty.cs: 212cdb5858947bda9a55c4e8f58ef2c6 -> 
-  custom:scripting/monoscript/fileName/CreateRoomUiForm.cs: bf1ce360a976c4439345f8064d17d3ad -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/PlayerControl.cs: 6df8b26511518ec75eac4160d12ac3bc -> 
-  custom:scripting/monoscript/fileName/LineInspector.cs: b46fbdbe979ee95575b26620e8af2791 -> 
-  custom:scripting/monoscript/fileName/PlayerListEntry.cs: 3811c0a731ead3815771e470aaca8954 -> 
-  custom:scripting/monoscript/fileName/SplinePosition.cs: b39b2fa35faaacaf63f8929368e2e5de -> 
-  custom:scripting/monoscript/fileName/CurrentRoomMaxPlayersProperty.cs: f8d2a9d7157be1b82e5db9695b63da90 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/PunStartup.cs: 961ddc858b2c0426ca5019c7e78c4fbf -> 
-  custom:scripting/monoscript/fileName/PlayerUI.cs: 4d64fa5e9e8828968d6cc191a132718d -> 
-  custom:scripting/monoscript/fileName/CloudRegionProperty.cs: a98a80d4740fc4627fa07cd0d1b937f1 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/IntInputField.cs: 40c0ee81b04639c26264c222a1aaea0c -> 
-  custom:scripting/monoscript/fileName/StringInputField.cs: 766f94c288e6bb2cfcd18d60914c0461 -> 
-  custom:scripting/monoscript/fileName/ToggleExpand.cs: 8df2d7619ad2c56cf93b2f0cedc9c9a4 -> 
-  custom:scripting/monoscript/fileName/PunCockpit.cs: 534cb157a89724d3ca07a36bb2005880 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomEmptyRoomTtlProperty.cs: ba459c40e550063227b6dbef6f2e12d7 -> 
-  custom:scripting/monoscript/fileName/PlayerListCell.cs: 76799f985e8a3951e5d132618c3350d8 -> 
-  custom:scripting/monoscript/fileName/WorldGenerator.cs: dca0ae82b72e05480b823fc7043006c0 -> 
-  custom:scripting/monoscript/fileName/NetworkPrefab.cs: 351501f0f08f309711ef303bf99b89fe -> 
-  custom:scripting/monoscript/fileName/RoomListCell.cs: 8d1543bdc9816b8a578d6cd2eebe48be -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPlayerTtlProperty.cs: 5737d382a26e8898e597b19ab06904c5 -> 
-  custom:scripting/monoscript/fileName/RoomListEntry.cs: c7ba9dd428a6b8b410fe51075bfba1e1 -> 
-  custom:scripting/monoscript/fileName/PlayerNameInputField.cs: 27839abf4289ab34aa2cc2967033966d -> 
-  custom:scripting/monoscript/fileName/CurrentRoomNameProperty.cs: 72010acf97fe1f3e9ff0b8c322c93e83 -> 
-  custom:scripting/monoscript/fileName/IngameControlPanel.cs: e8e78297d18e08fd0d6ef99a75e376c2 -> 
-  custom:scripting/monoscript/fileName/BezierSpline.cs: fdb9ccdef0d3985b914118aec7c411f2 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomMasterClientIdProperty.cs: 8a7f2b18c7369cf86e69820d5f0602fe -> 
-  custom:scripting/monoscript/fileName/IsConnectedProperty.cs: 981ecf71603e1baa6ce21b0fd1acc020 -> 
-  custom:scripting/monoscript/fileName/LobbyTopPanel.cs: 830e03b228bff7a95bbb092a2d6b29d2 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsVisibleToggle.cs: 47a99e70dc7fd5d059dfbf899c22bbdb -> 
-  custom:scripting/monoscript/fileName/PlayerOverviewPanel.cs: 515bb293728f907f134591646985b9ce -> 
-  custom:scripting/monoscript/fileName/OnlineDocButton.cs: e8bceb35def1f2c21aeb107b10e7c020 -> 
-  custom:scripting/monoscript/fileName/PlayerManager.cs: 5b0494b39b9a262c0ad29b1931262023 -> 
-  custom:scripting/monoscript/fileName/RegionListCell.cs: f6a1e00ce33d3dec4b7e2cfe425726c7 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Cluster.cs: 5ff22076c2cc06a01d1cc1c38d08f712 -> 
-  custom:scripting/monoscript/fileName/AsteroidsGameManager.cs: 12a51843b5b71df994a62f28231ff7ef -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsOpenProperty.cs: 401af34d1219dc5c3b2d226ce3b12b08 -> 
-  custom:scripting/monoscript/fileName/BestRegionInPrefsProperty.cs: f81195994c87654890233836f627cd69 -> 
-  custom:scripting/monoscript/fileName/AppVersionProperty.cs: a4b4daafa219f35ecce40e74ac804003 -> 
-  custom:scripting/monoscript/fileName/PlayerAnimatorManager.cs: a7d34eb870b3ee44c83d5db31316a095 -> 
-  custom:scripting/monoscript/fileName/OnlineGameSetup.cs: 6e7232d7797c9f3a2e00876fdf13ecc3 -> 
-  custom:scripting/monoscript/fileName/ProceduralController.cs: 294ae00e975ca4fe85822d6f85fe658a -> 
-  custom:scripting/monoscript/fileName/ServerAddressProperty.cs: 284ddbe40a77584c9c8835a0d4d63859 -> 
-  custom:scripting/monoscript/fileName/RegionListView.cs: d1509ce3c1dcf26ebb758f8eb59e1c54 -> 
-  custom:scripting/monoscript/fileName/GameSetting.cs: d07146bc2d66e38f10932e1aae3dbd8f -> 
-  custom:scripting/monoscript/fileName/ConnectToRegionUIForm.cs: 662fbbb8f06b04129a615111e69dec89 -> 
-  custom:scripting/monoscript/fileName/Spaceship.cs: 77d86dcddcb47a6cc18163eb292fa20b -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCharacter.cs: d37a384ef7557636dd0499ecb4e48640 -> 
-  custom:scripting/monoscript/fileName/WebRpcImplementationExample.cs: 7bff59c7defddf73a4ceae1090065bd1 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/SendRateOnSerializeField.cs: 8559ed016d3004cf7fa75b6b51babcf0 -> 
-  custom:scripting/monoscript/fileName/LobbyMainPanel.cs: bee85956556c66d6096a3300e7923c77 -> 
-  custom:scripting/monoscript/fileName/AutoSyncSceneToggle.cs: f5a0c8cb6428054959052eda2623401a -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/FriendListCell.cs: 8dfedb1e000853780b714ad0651f22a9 -> 
-  custom:scripting/monoscript/fileName/SlotRacerSplashScreen.cs: 76e2c64393d61c31f26e20612278ec67 -> 
-  custom:scripting/monoscript/fileName/PlayerDetailsController.cs: 4a8b583bcd181f124e040cd407eab3b7 -> 
-  custom:scripting/monoscript/fileName/BackgroundTimeOutField.cs: 301f4bb8d6480b188021ecf99ba8be6c -> 
-  custom:scripting/monoscript/fileName/ToDemoHubButton.cs: 76a2afa2c645f73081ead15c9512dae8 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersInRoomProperty.cs: 22a26994633102695250e14533d8bd88 -> 
-  custom:scripting/monoscript/fileName/LayoutElementMatchSize.cs: 325cd6d9cb44d01cc8cfa43a5413de8f -> 
-  custom:scripting/monoscript/fileName/UserIdField.cs: 889d45ebefa87613726b801d1e5e80c8 -> 
-  custom:scripting/monoscript/fileName/InfosPanelPlaceholder.cs: fef54b122412d96995fae2ad440bb18b -> 
-  custom:scripting/monoscript/fileName/Block.cs: 4912a9664024ee7276656eb28373609a -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/DocLinks.cs: 22fc6e62d47c65fdd35bd32f57891e69 -> 
-  custom:scripting/monoscript/fileName/FriendListView.cs: 04c66340ac95991cba62207cfc3f8015 -> 
-  custom:scripting/monoscript/fileName/Bezier.cs: b8534c761c3f32134ac0822189e167cc -> 
-  custom:scripting/monoscript/fileName/DocLinkButton.cs: 551275f4066ad419ab79864501010643 -> 
-  custom:scripting/monoscript/fileName/BezierSplineInspector.cs: 64d312faa4ce8272425b85e56f7f3f74 -> 
-  custom:scripting/monoscript/fileName/CountOfPlayersProperty.cs: 92593170cc4984fa211f8cfbd69ac9a3 -> 
-  custom:scripting/monoscript/fileName/SlotLanes.cs: 97949fb7cbc49a87a0e9a949a270c39f -> 
-  custom:scripting/monoscript/fileName/AsteroidsGame.cs: 39019f3fa92643372bcb4670a7434593 -> 
-  custom:scripting/monoscript/fileName/ScriptableSingletonObject.cs: 6c03943cd2b31c3cf982659f4bcabb81 -> 
-  custom:scripting/monoscript/fileName/SplineWalker.cs: 5be65352f0f07fbe7665dfb31e99644d -> 
-  custom:scripting/monoscript/fileName/LoaderAnime.cs: 95ab941fc8d4427c4fa6c07cf9af1057 -> 
-  custom:scripting/monoscript/fileName/PingProperty.cs: 9f24d087d77c62d9ddcbab43ed4cd5fe -> 
-  custom:scripting/monoscript/fileName/Launcher.cs: 6d0f0651107e8b978d50eb5d8ca63cd3 -> 
-  custom:scripting/monoscript/fileName/SendRateField.cs: 5786bd6806651c5e23c7d4a511e3dfaa -> 
-  custom:scripting/monoscript/fileName/PropertyCell.cs: caa15b0e3299de64e13d6f1d4cf295aa -> 
-  custom:scripting/monoscript/fileName/CountOfRoomsProperty.cs: c0688910145f665105cec6c6eaf4f03c -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/ServerProperty.cs: d53bc3d40dee4679a13aa7a9ff58706e -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/NetworkedPrefab.cs: 891cabbbd6d36c9c0588356be31dd109 -> 3b68b6524a25c4dd27575fc85d31117a
-  custom:scripting/monoscript/fileName/UserIdUiForm.cs: 0a1836b26b3227dc4bf5c907f6dcc697 -> 
-  custom:scripting/monoscript/fileName/LoadLevelUIForm.cs: 6198023540609558b39b6b3a84524494 -> 
-  custom:scripting/monoscript/fileName/Asteroid.cs: 8382d1ead570177214081c1ec12affef -> 
-  custom:scripting/monoscript/fileName/Bullet.cs: 77c411c50d821352e611a16c30f40226 -> 
-  custom:scripting/monoscript/fileName/CurrentRoomIsVisibleProperty.cs: be95d33e9289a548289bfd3ab9507d59 -> 
-  custom:scripting/monoscript/fileName/BezierCurveInspector.cs: cd033eb785ec71c240751fc164fcbff1 -> 
-  custom:scripting/monoscript/fileName/MasterManager.cs: 5442adf30db3d6221fb258a78f958936 -> 9491d459fd03970af1f092c3af170e21
-  custom:scripting/monoscript/fileName/CrcCheckToggle.cs: a236d00910b93ad4ae792080fb07508e -> 
-  custom:scripting/monoscript/fileName/BezierCurve.cs: 6855a37c0f6b23766e2a15354899a784 -> 
-  custom:scripting/monoscript/fileName/SingletonScriptableObject.cs: 6d3ac68372bb83d5095faa689163d5e9 -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/Line.cs: 5e23c11e3450a3cc94ccc16c37b15685 -> 
-  custom:scripting/monoscript/fileName/SetRoomCustomPropertyUIForm.cs: 9f1b75809ed6e2f34b0b61446d287bd4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/PropertyListenerBase.cs: f9338b1da94c09d1d4dc5b01f854e0e3 -> 
-  custom:scripting/monoscript/fileName/RoomListView.cs: 2b7207d3ddc2539dd2b806ed485e033b -> 
-  custom:scripting/monoscript/fileName/CurrentRoomPropertiesListedInLobbyProperty.cs: c8880d240fca5295b2028661629631dc -> 
-  custom:scripting/monoscript/fileName/CurrentRoomExpectedUsersProperty.cs: 15c7823a1b55465c741092cad452b5e4 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonUserControl.cs: 1e36b4529ca7c2f8667ed6449c3722b9 -> 
-  custom:scripting/monoscript/fileName/BoolInputField.cs: 96b6c600bd0428819f492c767ecf8b5b -> 
-  custom:scripting/monoscript/fileName/CameraWork.cs: 7182be285ca897b882f7b04a97b5001a -> 
-  custom:scripting/monoscript/fileName/PunCockpitEmbed.cs: 2240c92b97535c6672465e83f1e36036 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Workplace\Unity\Billiard-3D\Billiard\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.872 seconds
+Refreshing native plugins compatible for Editor in 7.76 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 1733ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (607ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (349ms)
+			TypeCache.Refresh (339ms)
+				TypeCache.ScanAssembly (327ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.70 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (46.3 KB). Loaded Objects now: 3729.
+Memory consumption went from 126.1 MB to 126.1 MB.
+Total: 3.250600 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.136300 ms MarkObjects: 2.733700 ms  DeleteObjects: 0.093100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.88 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3729.
+Memory consumption went from 75.7 MB to 75.7 MB.
+Total: 2.182300 ms (FindLiveObjects: 0.192700 ms CreateObjectMapping: 0.078200 ms MarkObjects: 1.889600 ms  DeleteObjects: 0.020800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.26 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3729.
+Memory consumption went from 75.3 MB to 75.3 MB.
+Total: 3.913000 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.155900 ms MarkObjects: 3.505900 ms  DeleteObjects: 0.036400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
