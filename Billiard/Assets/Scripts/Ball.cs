@@ -21,16 +21,6 @@ public class Ball : MonoBehaviour
         
     }
 
-    /*private void FixedUpdate()
-    {
-        if (rb.velocity.y > 0)
-        {
-            Vector3 newVelocity = rb.velocity;
-            newVelocity.y = 0f;
-            rb.velocity = newVelocity;
-        }
-    }*/
-
     public bool IsRedBall()
     {
         return isRed;
