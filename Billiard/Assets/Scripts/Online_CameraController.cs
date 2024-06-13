@@ -16,9 +16,9 @@ public class Online_CameraController : MonoBehaviour
     private bool isTakingShot = false;
     [SerializeField] float maxDrawDistance;
     [SerializeField] TextMeshProUGUI waitForTurnText;
-    [SerializeField] GameObject pauseMenu;
+    //[SerializeField] GameObject pauseMenu;
     //private float savedMousePosition;
-
+    bool isPaused = false;
     Transform cueBall;
     Online_GameManager gameManager;
     /*[SerializeField] TextMeshProUGUI powerText;
@@ -52,7 +52,7 @@ public class Online_CameraController : MonoBehaviour
         {
             waitForTurnText.gameObject.SetActive(true);
         }
-        else {
+        else if (!isPaused) {
             waitForTurnText.gameObject.SetActive(false);
             if (cueBall != null && !isTakingShot) {
                 horizontalInput = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
@@ -60,12 +60,13 @@ public class Online_CameraController : MonoBehaviour
             }
             Shoot();
         }
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            pauseMenu.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
+        // if (Input.GetKeyDown(KeyCode.Escape))
+        // {
+        //     pauseMenu.SetActive(true);
+        //     Cursor.lockState = CursorLockMode.None;
+        //     Cursor.visible = true;
+        //     isPaused = true;
+        // }
     }
 
     public void ResetCamera()
