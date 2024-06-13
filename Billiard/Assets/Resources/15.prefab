@@ -13,12 +13,11 @@ GameObject:
   - component: {fileID: 106881553470911968}
   - component: {fileID: 4713861741552701605}
   - component: {fileID: 8665403595029225170}
-  - component: {fileID: -5542986846897102532}
   - component: {fileID: -5760267893417687927}
-  - component: {fileID: -8953177701001722315}
+  - component: {fileID: 3891146956986578134}
   m_Layer: 0
   m_Name: 15
-  m_TagString: Untagged
+  m_TagString: StripedBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,7 +94,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4741018580841569227}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cb4c7bc406a86be4d91fefe73008b4f2, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -117,9 +116,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4741018580841569227}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 0.16
+  m_Drag: 0.5
+  m_AngularDrag: 0.88
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -136,18 +135,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &-5542986846897102532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4741018580841569227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 750c93cd4d82efc4692850b35dd2bbe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-5760267893417687927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,11 +154,11 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 0
   ObservedComponents:
-  - {fileID: -8953177701001722315}
+  - {fileID: 0}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &-8953177701001722315
+--- !u!114 &3891146956986578134
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,7 +174,7 @@ MonoBehaviour:
     SynchronizeEnabled: 1
     TeleportEnabled: 1
     TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 3
+    InterpolateOption: 2
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 1
     ExtrapolateOption: 0

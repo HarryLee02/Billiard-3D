@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: -3892872838525978323}
   - component: {fileID: -8943097501584656282}
   - component: {fileID: 3202350608351119563}
-  - component: {fileID: -1342007207756235473}
+  - component: {fileID: -172513932041653199}
   m_Layer: 0
   m_Name: 13
-  m_TagString: Untagged
+  m_TagString: StripedBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: -1342007207756235473}
+  - {fileID: -172513932041653199}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -117,7 +117,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115956}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cb4c7bc406a86be4d91fefe73008b4f2, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -139,9 +139,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115956}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 0.16
+  m_Drag: 0.5
+  m_AngularDrag: 0.88
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -158,7 +158,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &-1342007207756235473
+--- !u!114 &-172513932041653199
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,7 +174,7 @@ MonoBehaviour:
     SynchronizeEnabled: 1
     TeleportEnabled: 1
     TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 3
+    InterpolateOption: 2
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 1
     ExtrapolateOption: 0

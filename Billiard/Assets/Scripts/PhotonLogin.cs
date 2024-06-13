@@ -15,8 +15,8 @@ public class PhotonLogin : MonoBehaviourPunCallbacks
     public virtual void Login() {
         string name = inputUsername.text;
         Debug.Log("Login as " + name);
-        PhotonNetwork.SendRate = 40;
-        PhotonNetwork.SerializationRate = 20;
+        PhotonNetwork.SendRate = 30;
+        PhotonNetwork.SerializationRate = 10;
         PhotonNetwork.AutomaticallySyncScene = true;
         PhotonNetwork.LocalPlayer.NickName = name;
         PhotonNetwork.ConnectUsingSettings();

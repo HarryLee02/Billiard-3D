@@ -40,21 +40,19 @@ public class BallInitializer : MonoBehaviour
     [SerializeField] public Transform ball15Pos;
     private void Start()
     {
-        if (PhotonNetwork.IsMasterClient)
             BallSetup();
     }
 
     public void BallSetup()
     {
-        PhotonNetwork.Instantiate(cueBall.name, cueBallPos.position, Quaternion.identity);
-        PhotonNetwork.Instantiate(eightBall.name, eightBallPos.position, Quaternion.identity);
+        Instantiate(cueBall, cueBallPos.position, Quaternion.identity);
+        Instantiate(eightBall, eightBallPos.position, Quaternion.identity);
         GameObject[] Balls = { ball1, ball2, ball3, ball4, ball5, ball6, ball7, ball9, ball10, ball11, ball12, ball13, ball14, ball15 };
         Transform[] Positions = { ball1Pos, ball2Pos, ball3Pos, ball4Pos, ball5Pos, ball6Pos, ball7Pos, ball9Pos, ball10Pos, ball11Pos, ball12Pos, ball13Pos, ball14Pos, ball15Pos };
-        Shuffle(Balls);
-
+        //Shuffle(Balls);
         for (int i = 0; i < Balls.Length; i++)
         {
-            PhotonNetwork.Instantiate(Balls[i].name, Positions[i].position, Positions[i].rotation);
+            Instantiate(Balls[i], Positions[i].position, Positions[i].rotation);
         }
     }
     void Shuffle(GameObject[] array)
