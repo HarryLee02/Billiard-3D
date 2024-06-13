@@ -25,8 +25,6 @@ ScriptsOnlyBuild:
     PhotonUnityNetworking:
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformViewClassic
     - Photon.Pun.PhotonView
@@ -472,17 +470,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7280}
     - Class: 114
-      Script: {instanceID: 23218}
+      Script: {instanceID: 8174}
     - Class: 114
-      Script: {instanceID: 23238}
+      Script: {instanceID: 8194}
     - Class: 114
-      Script: {instanceID: 23314}
+      Script: {instanceID: 8270}
     - Class: 114
-      Script: {instanceID: 23414}
+      Script: {instanceID: 8374}
     - Class: 114
-      Script: {instanceID: 23554}
+      Script: {instanceID: 8514}
     - Class: 114
-      Script: {instanceID: 23558}
+      Script: {instanceID: 8518}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -569,19 +567,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7280}
     - Class: 114
-      Script: {instanceID: 23218}
+      Script: {instanceID: 8174}
     - Class: 114
-      Script: {instanceID: 23238}
+      Script: {instanceID: 8194}
     - Class: 114
-      Script: {instanceID: 23314}
+      Script: {instanceID: 8270}
     - Class: 114
-      Script: {instanceID: 23350}
+      Script: {instanceID: 8310}
     - Class: 114
-      Script: {instanceID: 23414}
+      Script: {instanceID: 8374}
     - Class: 114
-      Script: {instanceID: 23554}
+      Script: {instanceID: 8514}
     - Class: 114
-      Script: {instanceID: 23558}
+      Script: {instanceID: 8518}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -638,11 +636,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 23238}
+      Script: {instanceID: 8194}
     - Class: 114
-      Script: {instanceID: 23414}
+      Script: {instanceID: 8374}
     - Class: 114
-      Script: {instanceID: 30554}
+      Script: {instanceID: 25790}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -810,11 +808,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7106}
     - Class: 114
-      Script: {instanceID: 23238}
+      Script: {instanceID: 8194}
     - Class: 114
-      Script: {instanceID: 23414}
+      Script: {instanceID: 8374}
     - Class: 114
-      Script: {instanceID: 23578}
+      Script: {instanceID: 8538}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -889,15 +887,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7106}
     - Class: 114
-      Script: {instanceID: 23194}
+      Script: {instanceID: 8150}
     - Class: 114
-      Script: {instanceID: 23278}
+      Script: {instanceID: 8234}
     - Class: 114
-      Script: {instanceID: 23330}
+      Script: {instanceID: 8290}
     - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 8318}
     - Class: 114
-      Script: {instanceID: 23394}
+      Script: {instanceID: 8354}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -946,13 +944,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 23238}
+      Script: {instanceID: 8194}
     - Class: 114
-      Script: {instanceID: 23350}
+      Script: {instanceID: 8310}
     - Class: 114
-      Script: {instanceID: 23414}
+      Script: {instanceID: 8374}
     - Class: 114
-      Script: {instanceID: 23558}
+      Script: {instanceID: 8518}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -1848,12 +1846,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 931b4b5bdbc5f4721cbd4f1ccd1c250c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MasterManager
-  - hash:
-      serializedVersion: 2
       Hash: 98be06998c5fc6364f0bb20207f88247
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
@@ -2124,12 +2116,6 @@ ScriptsOnlyBuild:
     className: TextToggleIsOnTransition
   - hash:
       serializedVersion: 2
-      Hash: 1f9422042ee3fa392198f5d65c1961c5
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameSettings
-  - hash:
-      serializedVersion: 2
       Hash: d4721867d164f25e1e30e0ba0ec0902b
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
@@ -2214,7 +2200,7 @@ ScriptsOnlyBuild:
     className: CountdownTimer
   - hash:
       serializedVersion: 2
-      Hash: 02f914dd5bf673db5099c474aed7484e
+      Hash: 0c1e3c84cfd7f2c4c27e9bb51414aa34
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BallInitializer
@@ -2227,4 +2213,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/GameOnline.unity
   - Assets/Scenes/TmpGame.unity
   - Assets/Scenes/GameOnlineTest.unity
-  playerPath: D:/Workplace/Unity/BilliardBuild/Billiard.exe
+  playerPath: E:/Workspace/Build/Billiard.exe
