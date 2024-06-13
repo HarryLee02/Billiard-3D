@@ -38,7 +38,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks
     public virtual void StartGame()
     {
         Debug.Log("Start game");
-        if (PhotonNetwork.IsMasterClient)
+        if (PhotonNetwork.IsMasterClient && PhotonNetwork.CurrentRoom.PlayerCount > 1)
         {
             PhotonNetwork.LoadLevel("GameOnlineTest");
         }

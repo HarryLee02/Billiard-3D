@@ -49,26 +49,51 @@ public class Online_GameManager : MonoBehaviour
     [SerializeField] Transform headPosition;
     [SerializeField] Camera cueStickCamera;
     [SerializeField] Camera overheadCamera;
+    [SerializeField] TextMeshProUGUI player1nameText;
+    [SerializeField] TextMeshProUGUI player2nameText;
+    [SerializeField] GameObject cueStick;
     Camera currentCamera;
 
     private Vector3 mousePosition;
     private Vector3 worldPosition;
     public LayerMask ballLayer1;
 
+    private void Awake() {
+        photonView = GetComponent<PhotonView>();
+    }
     void Start()
     {
         StaticToken.p1Turn = true;
         currentPlayer = CurrentPlayer.Player1;
         currentCamera = cueStickCamera;
         currentTimer = shotTimer;
+        player1nameText.text = PhotonNetwork.CurrentRoom.GetPlayer(1).NickName;
+        player2nameText.text = PhotonNetwork.CurrentRoom.GetPlayer(2).NickName;
     }
     
 
     void Update()
     {
-        if (isFoul && !isGameOver)
+        if (isFoul && !isGameOver && PhotonNetwork.IsMasterClient)
         {
-            photonView.RPC(nameof(RPC_PlaceCueBallAfterFoul), RpcTarget.AllBuffered, null);
+            cueStickCamera.enabled = false;
+            overheadCamera.enabled = true;
+            currentCamera = overheadCamera;
+            isWaitingForBallMovementToStop = true;
+            cueStick.SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            if (Input.GetMouseButtonDown(0))
+            {
+                Vector3 mousePosition = Input.mousePosition;
+                Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x + (float)0.12, mousePosition.y + (float)0.6, currentCamera.nearClipPlane + (float)0.67));
+                photonView.RPC(nameof(RPC_PlaceCueBallAfterFoul), RpcTarget.AllBuffered, new object[] {worldPosition });
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                isFoul = false;
+                isFalling = true;
+                SwitchCamera();
+            }
         }
 
 
@@ -186,30 +211,17 @@ public class Online_GameManager : MonoBehaviour
             Lose("Player 2 loses by pocketing the 8-ball early!");
         }
     }
-    void PlaceCueBallAfterFoul() {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-
-        if (Input.GetMouseButtonDown(0))
+    void PlaceCueBallAfterFoul(Vector3 worldPosition) {
+        foreach (GameObject ball in GameObject.FindGameObjectsWithTag("CueBall"))
         {
-            Vector3 mousePosition = Input.mousePosition;
-            Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x + (float)0.12, mousePosition.y + (float)0.6, currentCamera.nearClipPlane + (float)0.67));
-
-            foreach (GameObject ball in GameObject.FindGameObjectsWithTag("CueBall"))
-            {
-                ball.transform.position = worldPosition;
-                ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
-                ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-            }
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-            isFoul = false;
-            isFalling = true;
+            ball.transform.position = worldPosition;
+            ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
     }
     [PunRPC]
-    void RPC_PlaceCueBallAfterFoul() {
-        PlaceCueBallAfterFoul();
+    void RPC_PlaceCueBallAfterFoul(Vector3 worldPosition) {
+        PlaceCueBallAfterFoul(worldPosition);
     }
     public void SwitchCamera()
     {
@@ -453,6 +465,7 @@ public class Online_GameManager : MonoBehaviour
             else
             {
                 isFoul = true;
+                NextPlayerTurn();
                 Debug.Log("Foul");
             }
         }

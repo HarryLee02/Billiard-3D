@@ -1,143 +1,134 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1718316639414927, "dur":1250, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718316639416192, "dur":190, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718316639416442, "dur":268, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718316639417092, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1718316639417755, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1718316639417869, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1718316639418369, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1718316639420902, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonChat.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1718316639416727, "dur":4869, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718316639421600, "dur":108887, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718316639530488, "dur":299, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718316639530892, "dur":957, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1718316639417015, "dur":4677, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1718316639421694, "dur":273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1718316639421967, "dur":3816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1718316639425799, "dur":10598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718316639425788, "dur":10611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1718316639436426, "dur":8487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1718316639444950, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1718316639447007, "dur":83539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718316639416966, "dur":4645, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718316639421614, "dur":1849, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718316639423471, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":2, "ts":1718316639423661, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718316639423864, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718316639424093, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639424144, "dur":284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639424429, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639424570, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639424801, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639424868, "dur":1143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639426012, "dur":662, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639426676, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639426885, "dur":299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639427186, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718316639423863, "dur":3530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718316639428174, "dur":98613, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718316639527510, "dur":2328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718316639527509, "dur":2331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1718316639529874, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1718316639417012, "dur":4625, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718316639421639, "dur":281, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718316639421921, "dur":4121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718316639426053, "dur":4975, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718316639426043, "dur":4987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1718316639432165, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718316639432292, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1718316639439603, "dur":6621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1718316639446322, "dur":84169, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718316639416949, "dur":4668, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718316639421621, "dur":361, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718316639421983, "dur":3166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718316639425159, "dur":5935, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718316639425152, "dur":5943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1718316639431975, "dur":168, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718316639432172, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718316639432293, "dur":7379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":4, "ts":1718316639439735, "dur":116, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718316639439856, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level4.resS" }}
-,{ "pid":12345, "tid":4, "ts":1718316639443952, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1718316639445465, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1718316639448355, "dur":82123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718316639417000, "dur":4628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718316639421632, "dur":172, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718316639421804, "dur":70, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718316639421875, "dur":1591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718316639423758, "dur":13361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718316639423757, "dur":13364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1718316639437188, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1718316639438087, "dur":7970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1718316639446096, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1718316639448322, "dur":82160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718316639417054, "dur":4691, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718316639421746, "dur":243, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718316639421989, "dur":1482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718316639423483, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Project\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1718316639423474, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1718316639423720, "dur":11192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1718316639423720, "dur":11193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1718316639434949, "dur":15239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718316639450200, "dur":80283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718316639417070, "dur":4682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718316639421755, "dur":385, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718316639422140, "dur":1572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718316639423716, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Assets\\Firebase\\Plugins\\Firebase.App.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718316639423713, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Firebase.App.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718316639423801, "dur":11037, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718316639423800, "dur":11040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1718316639434895, "dur":6758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":7, "ts":1718316639441684, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level3.resS" }}
-,{ "pid":12345, "tid":7, "ts":1718316639443223, "dur":4954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level3" }}
-,{ "pid":12345, "tid":7, "ts":1718316639448196, "dur":82272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718316639417175, "dur":4825, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718316639422000, "dur":1505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718316639423506, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1718316639423732, "dur":11229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718316639423732, "dur":11231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1718316639434991, "dur":6635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":8, "ts":1718316639441668, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level4" }}
-,{ "pid":12345, "tid":8, "ts":1718316639443383, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level2" }}
-,{ "pid":12345, "tid":8, "ts":1718316639445113, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1718316639448413, "dur":82048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718316639417096, "dur":4663, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718316639421762, "dur":117, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718316639421879, "dur":1586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718316639423703, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Assets\\Firebase\\Plugins\\Firebase.TaskExtension.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718316639423702, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Firebase.TaskExtension.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718316639423854, "dur":12512, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718316639423850, "dur":12518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1718316639436401, "dur":8442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1718316639447910, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1718316639444874, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level0.resS" }}
-,{ "pid":12345, "tid":9, "ts":1718316639448008, "dur":82478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1718316639417126, "dur":4640, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1718316639421768, "dur":118, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1718316639421887, "dur":4060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1718316639425964, "dur":6792, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718316639425951, "dur":6806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1718316639432803, "dur":17134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1718316639449954, "dur":80555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718316639417154, "dur":4841, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718316639421995, "dur":2982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718316639424990, "dur":6085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
-,{ "pid":12345, "tid":11, "ts":1718316639424981, "dur":6096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonChat.pdb" }}
-,{ "pid":12345, "tid":11, "ts":1718316639431729, "dur":217, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1718316639432024, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718316639432172, "dur":83, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1718316639432290, "dur":22070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1718316639454371, "dur":76110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718316639417196, "dur":4807, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718316639422003, "dur":1472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718316639423477, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1718316639423554, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1718316639423694, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Assets\\Firebase\\Plugins\\Firebase.Auth.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718316639423694, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Firebase.Auth.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718316639423797, "dur":12532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718316639423797, "dur":12534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1718316639436371, "dur":8005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":12, "ts":1718316639444423, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level1" }}
-,{ "pid":12345, "tid":12, "ts":1718316639446620, "dur":83870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718316639533530, "dur":377, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1718320797127988, "dur":1307, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718320797129305, "dur":162, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718320797129526, "dur":272, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718320797129813, "dur":4215, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718320797134037, "dur":109982, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718320797244019, "dur":252, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718320797244383, "dur":990, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1718320797129966, "dur":4081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718320797134049, "dur":1709, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718320797135789, "dur":584, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1718320797136377, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718320797136479, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1718320797136679, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718320797136745, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718320797136979, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718320797137110, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718320797137317, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718320797137379, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718320797137446, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718320797137549, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718320797136376, "dur":1449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718320797138371, "dur":99277, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718320797238353, "dur":5063, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718320797238352, "dur":5065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718320797243451, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1718320797130018, "dur":4053, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718320797134073, "dur":146, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718320797134219, "dur":129, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718320797134348, "dur":69, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718320797134417, "dur":1461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718320797135894, "dur":512, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1718320797136412, "dur":16842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1718320797136407, "dur":16850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1718320797153339, "dur":6619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1718320797160134, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1718320797161330, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1718320797163073, "dur":80939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718320797130024, "dur":4180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718320797134206, "dur":368, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718320797134574, "dur":1319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718320797136061, "dur":26411, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1718320797136061, "dur":26413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1718320797162475, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718320797162788, "dur":81270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718320797129999, "dur":4052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718320797134055, "dur":132, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718320797134187, "dur":152, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718320797134340, "dur":112, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718320797134452, "dur":1422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718320797135893, "dur":486, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1718320797136381, "dur":13960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1718320797136380, "dur":13962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1718320797150360, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1718320797150421, "dur":15003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1718320797165441, "dur":78585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718320797130055, "dur":4156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718320797134212, "dur":135, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718320797134347, "dur":113, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718320797134460, "dur":1409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718320797135883, "dur":453, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1718320797136341, "dur":11469, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1718320797136337, "dur":11475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1718320797147855, "dur":8908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1718320797156801, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1718320797159863, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1718320797162221, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1718320797163210, "dur":80787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718320797130082, "dur":4432, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718320797134515, "dur":1366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718320797135898, "dur":606, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1718320797136510, "dur":18972, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1718320797136505, "dur":18981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1718320797155565, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1718320797160639, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718320797162230, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1718320797163164, "dur":80831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718320797130109, "dur":4412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718320797134521, "dur":1324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718320797135864, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1718320797136064, "dur":14834, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1718320797136063, "dur":14836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1718320797150945, "dur":7307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1718320797158446, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1718320797161595, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1718320797162936, "dur":81187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718320797130132, "dur":4394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718320797134526, "dur":1308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718320797135859, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1718320797136060, "dur":14283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1718320797136060, "dur":14284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1718320797150383, "dur":6115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718320797156527, "dur":5150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1718320797161705, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1718320797164318, "dur":79737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718320797130148, "dur":4381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718320797134529, "dur":1275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718320797135868, "dur":169, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1718320797136038, "dur":15788, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1718320797136037, "dur":15790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1718320797151855, "dur":8561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1718320797160475, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1718320797161301, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1718320797163048, "dur":80972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718320797130179, "dur":4355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718320797134534, "dur":1230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718320797135794, "dur":129, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718320797135987, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":10, "ts":1718320797135974, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard.exe" }}
+,{ "pid":12345, "tid":10, "ts":1718320797136290, "dur":8449, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1718320797136289, "dur":8452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1718320797145025, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Project\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1718320797145025, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1718320797146903, "dur":21967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1718320797168885, "dur":75136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718320797130208, "dur":4334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718320797134542, "dur":1304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718320797135871, "dur":173, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1718320797136046, "dur":15100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1718320797136045, "dur":15102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1718320797151174, "dur":4921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1718320797156213, "dur":3764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1718320797159994, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1718320797160266, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1718320797162528, "dur":81596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718320797130230, "dur":4316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718320797134547, "dur":1212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718320797135823, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1718320797136033, "dur":15095, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Workplace\\Unity\\Billiard-3D\\Billiard\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1718320797136032, "dur":15097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Workplace/Unity/BilliardBuild/Billiard_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1718320797151157, "dur":12788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Workplace/Unity/BilliardBuild/Billiard_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1718320797163956, "dur":80159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718320797247029, "dur":366, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

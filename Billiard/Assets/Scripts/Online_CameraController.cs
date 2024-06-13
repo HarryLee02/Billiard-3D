@@ -15,6 +15,8 @@ public class Online_CameraController : MonoBehaviour
     private float horizontalInput;
     private bool isTakingShot = false;
     [SerializeField] float maxDrawDistance;
+    [SerializeField] TextMeshProUGUI waitForTurnText;
+    [SerializeField] GameObject pauseMenu;
     //private float savedMousePosition;
 
     Transform cueBall;
@@ -46,13 +48,24 @@ public class Online_CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (cueBall != null && !isTakingShot)
+        if (!PhotonNetwork.IsMasterClient)
         {
-            horizontalInput = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
-
-            this.transform.RotateAround(cueBall.position, Vector3.up, horizontalInput);
+            waitForTurnText.gameObject.SetActive(true);
         }
-        Shoot();
+        else {
+            waitForTurnText.gameObject.SetActive(false);
+            if (cueBall != null && !isTakingShot) {
+                horizontalInput = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
+                this.transform.RotateAround(cueBall.position, Vector3.up, horizontalInput);
+            }
+            Shoot();
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     public void ResetCamera()
