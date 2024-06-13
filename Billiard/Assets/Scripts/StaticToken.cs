@@ -8,4 +8,5 @@ public class StaticToken : MonoBehaviour
     public static float musicVolume=0.5f;
     public static float sfxVolume=0.5f;
     public static bool p1Turn;
+    public static string nickName;
 }

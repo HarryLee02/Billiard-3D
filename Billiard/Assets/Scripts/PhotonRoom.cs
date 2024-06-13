@@ -41,8 +41,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.LoadLevel("GameOnlineTest");
         }
-        else Debug.Log("You are not master client");
-    }
+        else Debug.Log("You are not master client");...
     public virtual void LeaveRoom()
     {
         Debug.Log("Leave room");

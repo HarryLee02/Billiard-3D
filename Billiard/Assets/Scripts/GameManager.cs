@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public string ballLayerName = "BallLayer";
 
-    enum CurrentPlayer
+    public enum CurrentPlayer
     {
         Player1,
         Player2
@@ -54,24 +54,14 @@ public class GameManager : MonoBehaviour
     private Vector3 worldPosition;
     public LayerMask ballLayer1;
 
-    // Start is called before the first frame update
     void Start()
     {
-        /*GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
-        int ballLayer = LayerMask.NameToLayer(ballLayerName);
-
-        foreach (GameObject ball in balls)
-        {
-            ball.layer = ballLayer;
-        }*/
-
         StaticToken.p1Turn = true;
         currentPlayer = CurrentPlayer.Player1;
         currentCamera = cueStickCamera;
         currentTimer = shotTimer;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isFoul && !isGameOver)
@@ -82,13 +72,8 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Vector3 mousePosition = Input.mousePosition;
-
-                Debug.Log("Mouse Position on Click (Screen): " + mousePosition);
-
                 Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x + (float)0.12, mousePosition.y + (float)0.9, currentCamera.nearClipPlane + (float)0.45));
-
-                Debug.Log("Mouse Position on Click (World): " + worldPosition);
-
+                
                 foreach (GameObject ball in GameObject.FindGameObjectsWithTag("Ball"))
                 {
                     if (ball.GetComponent<Ball>().IsCueBall())
