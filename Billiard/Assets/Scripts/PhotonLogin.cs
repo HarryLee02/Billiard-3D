@@ -10,7 +10,8 @@ public class PhotonLogin : MonoBehaviourPunCallbacks
 
     void Start()
     {
-        this.inputUsername.text= "Player1";
+        this.inputUsername.text= StaticToken.nickName;
+        Login();
     }
     public virtual void Login() {
         string name = inputUsername.text;

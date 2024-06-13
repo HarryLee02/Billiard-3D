@@ -15,7 +15,7 @@ public class Online_CameraController : MonoBehaviour
     private float horizontalInput;
     private bool isTakingShot = false;
     [SerializeField] float maxDrawDistance;
-    private float savedMousePosition;
+    //private float savedMousePosition;
 
     Transform cueBall;
     Online_GameManager gameManager;
@@ -70,7 +70,7 @@ public class Online_CameraController : MonoBehaviour
             if (Input.GetButtonDown("Fire1") && !isTakingShot)
             {
                 isTakingShot = true;
-                savedMousePosition = 0f;
+                //savedMousePosition = 0f;
             }
             else if (isTakingShot)
             {

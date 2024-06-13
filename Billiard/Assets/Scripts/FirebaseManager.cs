@@ -91,6 +91,7 @@ public class FirebaseManager : MonoBehaviour
         {
             //Data has been retrieved
             Debug.Log("Data has been retrieved");
+            StaticToken.nickName = DBTask.Result.Child("name").Value.ToString();
             DataSnapshot snapshot = DBTask.Result;
             usernameField1.text = snapshot.Child("name").Value.ToString();
             usernameField2.text = snapshot.Child("name").Value.ToString();

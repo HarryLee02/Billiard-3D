@@ -5139,7 +5139,7 @@ MonoBehaviour:
   rotationSpeed: 1440
   offset: {x: 0.7, y: 0.4, z: 0}
   downAngle: 15
-  power: 3.5
+  power: 3
   cueStick: {fileID: 111364341}
   maxDrawDistance: 0
 --- !u!114 &1429204566
@@ -6778,6 +6778,7 @@ GameObject:
   - component: {fileID: 1853387633}
   - component: {fileID: 1853387632}
   - component: {fileID: 1853387636}
+  - component: {fileID: 1853387637}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -6897,6 +6898,28 @@ MonoBehaviour:
   ballLayer1:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1853387637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853387630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 3
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1878783999
 GameObject:
   m_ObjectHideFlags: 0

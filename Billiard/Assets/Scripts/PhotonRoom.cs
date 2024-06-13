@@ -4,6 +4,7 @@ using Photon.Pun;
 using UnityEngine;
 using TMPro;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 public class PhotonRoom : MonoBehaviourPunCallbacks
 {
@@ -14,7 +15,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks
     public List<RoomProfile> rooms = new List<RoomProfile>();
     private void Start()
     {
-        this.input.text = "Room1";
+        this.input.text = "Room 1";
     }
     public virtual void CreateRoom()
     {
@@ -110,4 +111,5 @@ public class PhotonRoom : MonoBehaviourPunCallbacks
         }
         return null;
     }
+    
 }

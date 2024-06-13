@@ -5,6 +5,7 @@ using Photon.Pun;
 
 public class BallInitializer : MonoBehaviour
 {
+    [Header("Balls")]
     [SerializeField] public GameObject cueBall;
     [SerializeField] public GameObject eightBall;
     [SerializeField] public GameObject ball1;
@@ -22,6 +23,7 @@ public class BallInitializer : MonoBehaviour
     [SerializeField] public GameObject ball14;
     [SerializeField] public GameObject ball15;
 
+    [Header("Balls Position")]
     [SerializeField] public Transform cueBallPos;
     [SerializeField] public Transform eightBallPos;
     [SerializeField] public Transform ball1Pos;
@@ -38,9 +40,10 @@ public class BallInitializer : MonoBehaviour
     [SerializeField] public Transform ball13Pos;
     [SerializeField] public Transform ball14Pos;
     [SerializeField] public Transform ball15Pos;
+    
     private void Start()
     {
-            BallSetup();
+        BallSetup();
     }
 
     public void BallSetup()

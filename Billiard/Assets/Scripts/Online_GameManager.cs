@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 public class Online_GameManager : MonoBehaviour
 {
+    PhotonView photonView;
     public string ballLayerName = "BallLayer";
 
     public enum CurrentPlayer
@@ -60,30 +62,13 @@ public class Online_GameManager : MonoBehaviour
         currentCamera = cueStickCamera;
         currentTimer = shotTimer;
     }
+    
 
     void Update()
     {
         if (isFoul && !isGameOver)
         {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                Vector3 mousePosition = Input.mousePosition;
-                Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x + (float)0.12, mousePosition.y + (float)0.6, currentCamera.nearClipPlane + (float)0.67));
-
-                foreach (GameObject ball in GameObject.FindGameObjectsWithTag("CueBall"))
-                {
-                    ball.transform.position = worldPosition;
-                    ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
-                    ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-                }
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
-                isFoul = false;
-                isFalling = true;
-            }
+            photonView.RPC(nameof(RPC_PlaceCueBallAfterFoul), RpcTarget.AllBuffered, null);
         }
 
 
@@ -201,7 +186,31 @@ public class Online_GameManager : MonoBehaviour
             Lose("Player 2 loses by pocketing the 8-ball early!");
         }
     }
+    void PlaceCueBallAfterFoul() {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector3 mousePosition = Input.mousePosition;
+            Vector3 worldPosition = currentCamera.ScreenToWorldPoint(new Vector3(mousePosition.x + (float)0.12, mousePosition.y + (float)0.6, currentCamera.nearClipPlane + (float)0.67));
+
+            foreach (GameObject ball in GameObject.FindGameObjectsWithTag("CueBall"))
+            {
+                ball.transform.position = worldPosition;
+                ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            }
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            isFoul = false;
+            isFalling = true;
+        }
+    }
+    [PunRPC]
+    void RPC_PlaceCueBallAfterFoul() {
+        PlaceCueBallAfterFoul();
+    }
     public void SwitchCamera()
     {
         if (currentCamera == cueStickCamera)
@@ -222,13 +231,18 @@ public class Online_GameManager : MonoBehaviour
 
     void NextPlayerTurn()
     {
+
         if (currentPlayer == CurrentPlayer.Player1)
         {
+            var secondPlayer = PhotonNetwork.CurrentRoom.GetPlayer(2);
+            PhotonNetwork.SetMasterClient(secondPlayer);
             currentPlayer = CurrentPlayer.Player2;
             currentTurnText.text = "Player 2's Turn";
         }
         else
         {
+            var firstPlayer = PhotonNetwork.CurrentRoom.GetPlayer(1);
+            PhotonNetwork.SetMasterClient(firstPlayer);
             currentPlayer = CurrentPlayer.Player1;
             currentTurnText.text = "Player 1's Turn";
         }
